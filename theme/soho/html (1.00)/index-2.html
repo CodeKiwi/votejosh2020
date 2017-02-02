@@ -1,13 +1,32 @@
-
-
-
-  </body>
-
-</html>
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
+<head>
+  <title>Soho | Home Hero Slider</title>
 
-{% include head.html %}
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:300,400%7COpen+Sans:400,400i,700%7CLibre+Baskerville:400i' rel='stylesheet'>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-icons.css" />
+  <link rel="stylesheet" href="css/sliders.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/spacings.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+</head>
 
 <body class="relative">
 
@@ -21,7 +40,7 @@
 
   <div class="main-wrapper oh">
 
-    <header class="nav-type-1 dark-nav">
+    <header class="nav-type-2">
 
       <!-- Fullscreen search -->
       <div class="search-wrap">
@@ -32,14 +51,44 @@
                 <input type="search" class="form-control main-search-input" placeholder="Search for">
                 <div class="search-submit-icon"><i class="icon icon_search"></i></div>
                 <input type="submit" class="search-submit" value="search">
-              </div>
+              </div>            
             </form>
           </div>
         </div>
         <i class="icon icon_close search-close" id="search-close"></i>
       </div> <!-- end fullscreen search -->
 
-      <nav class="navbar navbar-fixed-top">
+      <div class="top-bar">
+        <div class="container">
+          <div class="row">
+
+            <!-- socials -->
+            <div class="side-menu left">
+              <div class="nav-inner menu-socials social-icons">                
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div> <!-- end socials -->
+
+            <!-- search -->
+            <div class="side-menu right hidden-sm hidden-xs">
+              <div class="nav-inner">
+                <div class="nav-search-wrap right hidden-sm hidden-xs">
+                  <a href="#" class="nav-search search-trigger">
+                    <i class="icon icon_search"></i>
+                  </a>
+                </div>
+              </div>
+            </div> <!-- end search -->
+
+          </div>
+        </div>
+      </div> <!-- end top bar -->
+    
+      <nav class="navbar navbar-static-top">
         <div class="navigation">
           <div class="container relative">
 
@@ -54,21 +103,20 @@
                 </button>
               </div> <!-- end navbar-header -->
 
-
-              <!-- side menu -->
-              <div class="side-menu nav-left hidden-sm hidden-xs">
-                <div class="nav-inner">
-                  <div class="nav-search-wrap hidden-sm hidden-xs">
-                    <a href="#" class="nav-search search-trigger">
-                      <i class="icon icon_search"></i>
+              <div class="header-wrap">
+                <div class="logo-container text-center">
+                  <div class="logo-wrap">
+                    <a href="index.html">
+                      <img class="logo-dark" src="img/logo_dark_big.png" alt="logo">
+                      <img class="logo-small" src="img/logo_dark.png" alt="logo">
                     </a>
                   </div>
                 </div>
-              </div> <!-- end side menu -->
+              </div>
 
               <div class="col-md-12 nav-wrap">
                 <div class="collapse navbar-collapse text-center" id="navbar-collapse">
-
+                  
                   <ul class="nav navbar-nav">
 
                     <li class="dropdown active">
@@ -127,213 +175,77 @@
                         </button>
                       </form>
                     </li>
-
+        
                   </ul> <!-- end menu -->
                 </div> <!-- end collapse -->
               </div> <!-- end col -->
-
-              <!-- side menu -->
-              <div class="side-menu right mobile-left-align">
-                <div class="nav-inner menu-socials social-icons">
-                  <div class="right">
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fa fa-heart"></i></a>
-                  </div>
-                </div>
-              </div> <!-- end side menu -->
-
+                                
+          
             </div> <!-- end row -->
           </div> <!-- end container -->
         </div> <!-- end navigation -->
       </nav> <!-- end navbar -->
     </header>
 
-    <section class="header-wrap hero-section bg-light">
-      <div class="container">
-        <div class="logo-container text-center">
-          <div class="logo-wrap">
-            <a href="index.html">
-              <img class="logo-dark" src="assets/img/logo_dark_big.png" alt="logo">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <div class="content-wrapper oh">
 
-      <!-- Latest Stories -->
-      <section class="section-wrap latest-stories pb-0">
-        <div class="container-fluid nopadding">
-
-          <div class="heading-row text-center mb-40">
-            <h2 class="heading uppercase small">Latest Stories</h2>
-          </div>
-
-          <div id="main-slider" class="flickity-slider-wrap">
-
-            <div class="gallery-cell">
-              <article>
-                <a href="blog-single.html" class="entry-img">
-                  <img src="assets/img/main_slide_1.jpg" alt="">
-                  <span class="entry-category">Travel</span>
-                </a>
-                <div class="entry text-center">
-                  <h4 class="entry-title uppercase"><a href="blog-single.html">revolve in mexico</a></h4>
-                  <span class="entry-date">Jul 14, 2016</span>
-                </div>
-              </article>
+      <!-- Hero Slider -->
+      <section class="section-wrap nopadding">
+        <div class="container">
+          <div class="entry-slider">
+            <div class="flexslider" id="flexslider-hero">
+              <ul class="slides clearfix">
+                <li>
+                  <img src="img/hero_slide_1.jpg" alt="">
+                  <div class="hero-holder">
+                    <a href="#" class="entry-category">Lifestyle</a>
+                    <h2 class="hero-heading white uppercase"><a href="blog-single">palm springs getaway</a></h2>
+                    <a href="#" class="btn btn-md btn-white">Read More</a>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/hero_slide_2.jpg" alt="">
+                  <div class="hero-holder">
+                    <a href="#" class="entry-category">Travel</a>
+                    <h2 class="hero-heading white uppercase"><a href="blog-single">10 carry-on packing tips</a></h2>
+                    <a href="#" class="btn btn-md btn-white">Read More</a>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/hero_slide_3.jpg" alt="">
+                  <div class="hero-holder">
+                    <a href="#" class="entry-category">Fashion</a>
+                    <h2 class="hero-heading white uppercase"><a href="blog-single">denim on denim during spring</a></h2>
+                    <a href="#" class="btn btn-md btn-white">Read More</a>
+                  </div>
+                </li>
+              </ul>
             </div>
-
-            <div class="gallery-cell">
-              <article>
-                <a href="blog-single.html" class="entry-img">
-                  <img src="assets/img/main_slide_2.jpg" alt="">
-                  <span class="entry-category">Travel</span>
-                </a>
-                <div class="entry text-center">
-                  <h4 class="entry-title uppercase"><a href="blog-single.html">Vinez Boat Ride</a></h4>
-                  <span class="entry-date">Jul 14, 2016</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="gallery-cell">
-              <article>
-                <a href="blog-single.html" class="entry-img">
-                  <img src="assets/img/main_slide_3.jpg" alt="">
-                  <span class="entry-category">Lifestyle</span>
-                </a>
-                <div class="entry text-center">
-                  <h4 class="entry-title uppercase"><a href="blog-single.html">Welcome Cannes</a></h4>
-                  <span class="entry-date">Jul 14, 2016</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="gallery-cell">
-              <article>
-                <a href="blog-single.html" class="entry-img">
-                  <img src="assets/img/main_slide_4.jpg" alt="">
-                  <span class="entry-category">Beauty</span>
-                </a>
-                <div class="entry text-center">
-                  <h4 class="entry-title uppercase"><a href="blog-single.html">Elegant &amp; Neutral</a></h4>
-                  <span class="entry-date">Jul 14, 2016</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="gallery-cell">
-              <article>
-                <a href="blog-single.html" class="entry-img">
-                  <img src="assets/img/main_slide_5.jpg" alt="">
-                  <span class="entry-category">Lifestyle</span>
-                </a>
-                <div class="entry text-center">
-                  <h4 class="entry-title uppercase"><a href="blog-single.html">Must Haves</a></h4>
-                  <span class="entry-date">Jul 14, 2016</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="gallery-cell">
-              <article>
-                <a href="blog-single.html" class="entry-img">
-                  <img src="assets/img/main_slide_6.jpg" alt="">
-                  <span class="entry-category">Travel</span>
-                </a>
-                <div class="entry text-center">
-                  <h4 class="entry-title uppercase"><a href="blog-single.html">Paris fashion</a></h4>
-                  <span class="entry-date">Jul 14, 2016</span>
-                </div>
-              </article>
-            </div>
-
-          </div>
+          </div> <!-- end slider -->
         </div>
-      </section> <!-- end latest stories -->
+      </section> <!-- end hero slider -->
 
       <!-- Content -->
-      <section class="content blog-standard">
+      <section class="content blog-standard pt-mdm-50">
         <div class="container relative">
           <div class="row">
-
+            
             <!-- post content -->
             <div class="col-md-9 post-content mb-50">
 
-              <!-- large post -->
-              <article class="entry-item large-post">
-
-                <div class="entry-header">
-                  <a href="#" class="entry-category">Lifestyle</a>
-                  <h2 class="entry-title">
-                    <a href="blog-single.html">Natural Summer</a>
-                  </h2>
-                </div>
-
-                <div class="entry-img">
-                  <a href="blog-single.html">
-                    <img src="assets/img/featured_post.jpg" alt="">
-                  </a>
-                </div>
-
-                <div class="entry-wrap">
-                  <div class="entry">
-
-                    <div class="entry-content">
-                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quisma bibendum auctor, nisi elit consequat ipsum, necsagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi acumsan ipsum velit. Nam nec tellusb a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent tacitioci Nullam ac urnaeu felis dapibus condi  entum sit amet a augue osqu ad litora torquent per conubia nostra, perada inceptos...
-                      </p>
-                      <div class="text-center">
-                        <a href="blog-single.html" class="read-more underline-link">Read More</a>
-                      </div>
-                    </div>
-
-                    <div class="entry-meta-wrap clearfix">
-                      <ul class="entry-meta">
-                        <li class="entry-date">
-                          <a href="#">August 30, 2016</a>
-                        </li>
-                        <li class="entry-comments">
-                          <a href="blog-single.html">2 Comments</a>
-                        </li>
-                      </ul>
-
-                      <div class="social-icons right">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-pinterest-p"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </article> <!-- end large post -->
-
-              <!-- grid posts -->
-              <div class="row items-grid">
-                <div class="col-sm-6">
-                  <article class="entry-item">
+              <!-- list posts -->
+              <div class="row items-list">
+              
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
                     <div class="entry-img">
                       <a href="blog-single.html">
-                        <img src="assets/img/post_1.jpg" alt="">
+                        <img src="img/post_1.jpg" alt="">
                       </a>
                     </div>
+                  </div>
+
+                  <div class="col-sm-7">
                     <div class="entry-header">
                       <a href="#" class="entry-category">Lifestyle</a>
                       <h2 class="entry-title">
@@ -341,7 +253,7 @@
                       </h2>
                     </div>
                     <div class="entry-wrap">
-                      <div class="entry">
+                      <div class="entry">                                            
                         <div class="entry-content">
                           <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
                           </p>
@@ -350,24 +262,27 @@
                           <ul class="entry-meta">
                             <li class="entry-date">
                               <a href="#">August 30, 2016</a>
-                            </li>
+                            </li>                 
                             <li class="entry-comments">
                               <a href="blog-single.html">2 Comments</a>
-                            </li>
+                            </li>             
                           </ul>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
+                  </div>
+                </article>
 
-                <div class="col-sm-6">
-                  <article class="entry-item">
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
                     <div class="entry-img">
                       <a href="blog-single.html">
-                        <img src="assets/img/post_2.jpg" alt="">
+                        <img src="img/post_2.jpg" alt="">
                       </a>
                     </div>
+                  </div>
+
+                  <div class="col-sm-7">
                     <div class="entry-header">
                       <a href="#" class="entry-category">Travel</a>
                       <h2 class="entry-title">
@@ -375,7 +290,7 @@
                       </h2>
                     </div>
                     <div class="entry-wrap">
-                      <div class="entry">
+                      <div class="entry">                                            
                         <div class="entry-content">
                           <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
                           </p>
@@ -384,24 +299,27 @@
                           <ul class="entry-meta">
                             <li class="entry-date">
                               <a href="#">August 30, 2016</a>
-                            </li>
+                            </li>                 
                             <li class="entry-comments">
                               <a href="blog-single.html">2 Comments</a>
-                            </li>
+                            </li>             
                           </ul>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
+                  </div>
+                </article>
 
-                <div class="col-sm-6">
-                  <article class="entry-item">
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
                     <div class="entry-img">
                       <a href="blog-single.html">
-                        <img src="assets/img/post_3.jpg" alt="">
+                        <img src="img/post_3.jpg" alt="">
                       </a>
                     </div>
+                  </div>
+
+                  <div class="col-sm-7">
                     <div class="entry-header">
                       <a href="#" class="entry-category">Travel</a>
                       <h2 class="entry-title">
@@ -409,7 +327,7 @@
                       </h2>
                     </div>
                     <div class="entry-wrap">
-                      <div class="entry">
+                      <div class="entry">                                            
                         <div class="entry-content">
                           <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
                           </p>
@@ -418,24 +336,27 @@
                           <ul class="entry-meta">
                             <li class="entry-date">
                               <a href="#">August 30, 2016</a>
-                            </li>
+                            </li>                 
                             <li class="entry-comments">
                               <a href="blog-single.html">2 Comments</a>
-                            </li>
+                            </li>             
                           </ul>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
+                  </div>
+                </article>
 
-                <div class="col-sm-6">
-                  <article class="entry-item">
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
                     <div class="entry-img">
                       <a href="blog-single.html">
-                        <img src="assets/img/post_4.jpg" alt="">
+                        <img src="img/post_4.jpg" alt="">
                       </a>
                     </div>
+                  </div>
+
+                  <div class="col-sm-7">
                     <div class="entry-header">
                       <a href="#" class="entry-category">Lifestyle</a>
                       <h2 class="entry-title">
@@ -443,7 +364,7 @@
                       </h2>
                     </div>
                     <div class="entry-wrap">
-                      <div class="entry">
+                      <div class="entry">                                            
                         <div class="entry-content">
                           <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
                           </p>
@@ -452,106 +373,35 @@
                           <ul class="entry-meta">
                             <li class="entry-date">
                               <a href="#">August 30, 2016</a>
-                            </li>
+                            </li>                 
                             <li class="entry-comments">
                               <a href="blog-single.html">2 Comments</a>
-                            </li>
+                            </li>             
                           </ul>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
-
-              </div> <!-- end grid posts -->
-
-              <!-- large post -->
-              <article class="entry-item large-post">
-
-                <div class="entry-header">
-                  <a href="#" class="entry-category">Lifestyle</a>
-                  <h2 class="entry-title">
-                    <a href="blog-single.html">escape from reality</a>
-                  </h2>
-                </div>
-
-                <a href="blog-single.html" class="entry-slider">
-                  <div class="flexslider" id="flexslider">
-                    <ul class="slides clearfix">
-                      <li>
-                        <img src="assets/img/gallery_post_1.jpg" alt="">
-                      </li>
-                      <li>
-                        <img src="assets/img/gallery_post_2.jpg" alt="">
-                      </li>
-                      <li>
-                        <img src="assets/img/gallery_post_3.jpg" alt="">
-                      </li>
-                    </ul>
                   </div>
-                </a> <!-- end slider -->
+                </article>
 
-                <div class="entry-wrap">
-                  <div class="entry">
-
-                    <div class="entry-content">
-                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quisma bibendum auctor, nisi elit consequat ipsum, necsagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi acumsan ipsum velit. Nam nec tellusb a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent tacitioci Nullam ac urnaeu felis dapibus condi  entum sit amet a augue osqu ad litora torquent per conubia nostra, perada inceptos...
-                      </p>
-                      <div class="text-center">
-                        <a href="blog-single.html" class="read-more underline-link">Read More</a>
-                      </div>
-                    </div>
-
-                    <div class="entry-meta-wrap clearfix">
-                      <ul class="entry-meta">
-                        <li class="entry-date">
-                          <a href="#">August 30, 2016</a>
-                        </li>
-                        <li class="entry-comments">
-                          <a href="blog-single.html">2 Comments</a>
-                        </li>
-                      </ul>
-
-                      <div class="social-icons right">
-                        <a href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-pinterest-p"></i>
-                        </a>
-                        <a href="#">
-                          <i class="fa fa-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </article> <!-- end large post -->
-
-              <!-- grid posts -->
-              <div class="row">
-                <div class="col-sm-6">
-                  <article class="entry-item">
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
                     <div class="entry-img">
                       <a href="blog-single.html">
-                        <img src="assets/img/post_6.jpg" alt="">
+                        <img src="img/post_6.jpg" alt="">
                       </a>
                     </div>
+                  </div>
+
+                  <div class="col-sm-7">
                     <div class="entry-header">
-                      <a href="#" class="entry-category">Travel</a>
+                      <a href="#" class="entry-category">travel</a>
                       <h2 class="entry-title">
                         <a href="blog-single.html">Trip in Brazil</a>
                       </h2>
                     </div>
                     <div class="entry-wrap">
-                      <div class="entry">
+                      <div class="entry">                                            
                         <div class="entry-content">
                           <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
                           </p>
@@ -560,32 +410,35 @@
                           <ul class="entry-meta">
                             <li class="entry-date">
                               <a href="#">August 30, 2016</a>
-                            </li>
+                            </li>                 
                             <li class="entry-comments">
                               <a href="blog-single.html">2 Comments</a>
-                            </li>
+                            </li>             
                           </ul>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
+                  </div>
+                </article>
 
-                <div class="col-sm-6">
-                  <article class="entry-item">
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
                     <div class="entry-img">
                       <a href="blog-single.html">
-                        <img src="assets/img/post_7.jpg" alt="">
+                        <img src="img/post_7.jpg" alt="">
                       </a>
                     </div>
+                  </div>
+
+                  <div class="col-sm-7">
                     <div class="entry-header">
-                      <a href="#" class="entry-category">Travel</a>
+                      <a href="#" class="entry-category">travel</a>
                       <h2 class="entry-title">
                         <a href="blog-single.html">Happy Lifetime</a>
                       </h2>
                     </div>
                     <div class="entry-wrap">
-                      <div class="entry">
+                      <div class="entry">                                            
                         <div class="entry-content">
                           <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
                           </p>
@@ -594,17 +447,130 @@
                           <ul class="entry-meta">
                             <li class="entry-date">
                               <a href="#">August 30, 2016</a>
-                            </li>
+                            </li>                 
                             <li class="entry-comments">
                               <a href="blog-single.html">2 Comments</a>
-                            </li>
+                            </li>             
                           </ul>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
-              </div> <!-- end grid posts -->
+                  </div>
+                </article>
+
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
+                    <div class="entry-img">
+                      <a href="blog-single.html">
+                        <img src="img/post_8.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-7">
+                    <div class="entry-header">
+                      <a href="#" class="entry-category">Fashion</a>
+                      <h2 class="entry-title">
+                        <a href="blog-single.html">Palm springs getaway</a>
+                      </h2>
+                    </div>
+                    <div class="entry-wrap">
+                      <div class="entry">                                            
+                        <div class="entry-content">
+                          <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
+                          </p>
+                        </div>
+                        <div class="entry-meta-wrap clearfix">
+                          <ul class="entry-meta">
+                            <li class="entry-date">
+                              <a href="#">August 30, 2016</a>
+                            </li>                 
+                            <li class="entry-comments">
+                              <a href="blog-single.html">2 Comments</a>
+                            </li>             
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
+                    <div class="entry-img">
+                      <a href="blog-single.html">
+                        <img src="img/post_9.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-7">
+                    <div class="entry-header">
+                      <a href="#" class="entry-category">Travel</a>
+                      <h2 class="entry-title">
+                        <a href="blog-single.html">10 carry-on packing tips</a>
+                      </h2>
+                    </div>
+                    <div class="entry-wrap">
+                      <div class="entry">                                            
+                        <div class="entry-content">
+                          <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
+                          </p>
+                        </div>
+                        <div class="entry-meta-wrap clearfix">
+                          <ul class="entry-meta">
+                            <li class="entry-date">
+                              <a href="#">August 30, 2016</a>
+                            </li>                 
+                            <li class="entry-comments">
+                              <a href="blog-single.html">2 Comments</a>
+                            </li>             
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
+                    <div class="entry-img">
+                      <a href="blog-single.html">
+                        <img src="img/post_10.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-7">
+                    <div class="entry-header">
+                      <a href="#" class="entry-category">Fashion</a>
+                      <h2 class="entry-title">
+                        <a href="blog-single.html">Denim on denim during spring</a>
+                      </h2>
+                    </div>
+                    <div class="entry-wrap">
+                      <div class="entry">                                            
+                        <div class="entry-content">
+                          <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulput ate cursus a sit amet mauris. Morbi accumsan ipsum velit. Namec elit tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae...
+                          </p>
+                        </div>
+                        <div class="entry-meta-wrap clearfix">
+                          <ul class="entry-meta">
+                            <li class="entry-date">
+                              <a href="#">August 30, 2016</a>
+                            </li>                 
+                            <li class="entry-comments">
+                              <a href="blog-single.html">2 Comments</a>
+                            </li>             
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+              </div> <!-- end list posts -->
+
 
               <div class="row mt-20">
                 <div class="col-md-12 text-center">
@@ -614,7 +580,7 @@
 
 
             </div> <!-- end col -->
-
+            
             <!-- Sidebar -->
             <aside class="col-md-3 sidebar">
 
@@ -622,9 +588,9 @@
                 <div class="heading-lines">
                   <h3 class="widget-title heading">About Me</h3>
                 </div>
-                <img src="assets/img/about_me.jpg" alt="">
+                <img src="img/about_me.jpg" alt="">
                 <p class="mb-20 mt-30">A personal diary of wanderlust and an overflowing wardrobe. Live with passion.</p>
-                <img src="assets/img/signature.png" alt="">
+                <img src="img/signature.png" alt="">
               </div>
 
               <!-- Newsletter -->
@@ -636,7 +602,7 @@
                   <input type="email" placeholder="Your email address">
                 </form>
                 <input type="submit" value="Subscribe" id="submit-button" class="btn btn-lg btn-color">
-              </div>
+              </div>              
 
               <!-- Instagram Feed Grid -->
               <div class="widget instagram">
@@ -673,7 +639,7 @@
               <!-- Ad banner -->
               <div class="widget custom-ad-banner">
                 <a href="#">
-                  <img src="assets/img/banner.jpg" alt="">
+                  <img src="img/banner.jpg" alt="">
                 </a>
               </div>
 
@@ -688,7 +654,7 @@
                       <article class="post-small clearfix">
                         <div class="entry-img">
                           <a href="blog-single.html">
-                            <img src="assets/img/recent_1.jpg" alt="">
+                            <img src="img/recent_1.jpg" alt="">
                           </a>
                         </div>
                         <div class="entry">
@@ -705,7 +671,7 @@
                       <article class="post-small clearfix">
                         <div class="entry-img">
                           <a href="blog-single.html">
-                            <img src="assets/img/recent_2.jpg" alt="">
+                            <img src="img/recent_2.jpg" alt="">
                           </a>
                         </div>
                         <div class="entry">
@@ -722,7 +688,7 @@
                       <article class="post-small clearfix">
                         <div class="entry-img">
                           <a href="blog-single.html">
-                            <img src="assets/img/recent_3.jpg" alt="">
+                            <img src="img/recent_3.jpg" alt="">
                           </a>
                         </div>
                         <div class="entry">
@@ -739,7 +705,7 @@
                       <article class="post-small clearfix">
                         <div class="entry-img">
                           <a href="blog-single.html">
-                            <img src="assets/img/recent_4.jpg" alt="">
+                            <img src="img/recent_4.jpg" alt="">
                           </a>
                         </div>
                         <div class="entry">
@@ -769,7 +735,7 @@
               </div>
 
             </aside> <!-- end sidebar -->
-
+      
           </div> <!-- end row -->
         </div> <!-- end container -->
       </section> <!-- end content -->
@@ -809,7 +775,23 @@
       </div>
 
 
-      {% include footer.html %}
+      <!-- Footer Type-1 -->
+      <footer class="footer footer-type-1 bg-dark">
+        <div class="bottom-footer">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-12 copyright text-center">
+                <span>
+                  © 2016 DeoTrendy • Made by <a href="http://deothemes.com">DeoThemes</a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </footer> <!-- end footer -->
+
 
       <div id="back-to-top">
         <a href="#top"><i class="fa fa-angle-up"></i></a>
@@ -819,11 +801,11 @@
   </div> <!-- end main wrapper -->
 
   <!-- jQuery Scripts -->
-  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/js/plugins.js"></script>
-  <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-  <script type="text/javascript" src="assets/js/scripts.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
 
   <!-- Instafeed -->
   <script type="text/javascript">
@@ -855,6 +837,6 @@
     });
   </script>
 
-
+    
 </body>
-</html>{{ content }}
+</html>
