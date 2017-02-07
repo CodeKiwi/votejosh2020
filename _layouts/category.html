@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<!-- Content -->
+<section class="content blog-standard pt-mdm-50">
+  <div class="container relative">
+    <div class="row">
+        <div class="entry-header">
+            <h1 class="heading underline-title uppercase">{{page.category}}</h1>
+            {% unless page.content == '' %}
+                <p>{{ page.content }}</p>
+            {% endunless %}
+            {% if page.category == 'new_zealand'%}
+              <iframe src="https://embed.alpacamaps.com/a77ea8f8-e91b-11e6-a4a7-024bc0398b11/embed" width="940" height="650" style="border:1px #d5d5d5 solid;min-height:300px" allowFullScreen></iframe>
+            {% endif %}
+        </div>
+      <!-- post content -->
+      <div class="col-md-9 post-content mb-50">
+
+        <!-- list posts -->
+        <div class="row items-list">
+
+        {% for post in site.categories.[page.category] %}
+        <article class="entry-item clearfix">
+          <div class="col-sm-5">
+            <div class="entry-img">
+              <a href="{{post.url}}">
+                <img src="/assets/img/heros/{{post.hero}}" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-7">
+            <div class="entry-header">
+              <h2 class="entry-title">
+                <a href="{{post.url}}">{{post.title}}</a>
+              </h2>
+            </div>
+            <div class="entry-wrap">
+              <div class="entry">
+                <div class="entry-content">
+                  {{post.excerpt}}
+                </div>
+                <div class="entry-meta-wrap clearfix">
+                  <ul class="entry-meta">
+                    <li class="entry-date">
+                      <a href="#">{{post.date | date_to_string}}</a>
+                    </li>
+                    <!-- <li class="entry-comments">
+                      <a href="blog-single.html">2 Comments</a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+
+        </div> <!-- end list posts -->
+
+
+        <div class="row mt-20">
+          <div class="col-md-12 text-center">
+            <a href="#" class="btn btn-md btn-stroke" id="load-more">Load More</a>
+          </div>
+        </div>
+
+
+      </div> <!-- end col -->
+
+      <!-- Sidebar -->
+      {% include sidebar.html %}
+      <!-- end sidebar -->
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section> <!-- end content -->

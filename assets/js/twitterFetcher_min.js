@@ -25,7 +25,7 @@ q[c]+'" class="twitter_fav_icon"'+(t?' target="_blank">':">")+"Favorite</a></p>"
 
 // Twitter Feed
 	var config1 = {
-  "id": '594366594521804800',
+  "id": '191659473',
   "domId": 'tweets',
   "showUser": false,
   "showInteraction": false,

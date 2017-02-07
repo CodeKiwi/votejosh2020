@@ -27,8 +27,7 @@
 
     {% include social.html %}
 
-
-      {% include footer.html %}
+    {% include footer.html %}
 
       <div id="back-to-top">
         <a href="#top"><i class="fa fa-angle-up"></i></a>
@@ -38,39 +37,40 @@
   </div> <!-- end main wrapper -->
 
   <!-- jQuery Scripts -->
-  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/js/plugins.js"></script>
-  <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-  <script type="text/javascript" src="assets/js/scripts.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/js/plugins.js"></script>
+  <script type="text/javascript" src="/assets/js/twitterFetcher_min.js"></script>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
 
   <!-- Instafeed -->
   <script type="text/javascript">
     $(window).load(function() {
 
-      var InstafeedRow = new Instafeed({
-          target: 'instafeed-row',
-          get: 'user',
-          userId: '3562688430',
-          accessToken: '3562688430.ceddd6d.c54fa5142fa847f89827e5cf9b19d885',
-          resolution: 'low_resolution',
-          limit: '6',
-          template: '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>'
-      });
+              var InstafeedRow = new Instafeed({
+                  target: 'instafeed-row',
+                  get: 'user',
+                  userId: '3562688430',
+                  accessToken: '3562688430.ceddd6d.c54fa5142fa847f89827e5cf9b19d885',
+                  resolution: 'low_resolution',
+                  limit: '6',
+                  template: '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>'
+              });
 
-      var InstafeedGrid = new Instafeed({
-          target: 'instafeed-grid',
-          get: 'user',
-          userId: '3562688430',
-          accessToken: '3562688430.ceddd6d.c54fa5142fa847f89827e5cf9b19d885',
-          resolution: 'low_resolution',
-          limit: '9',
-          template: '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>'
-      });
+              var InstafeedGrid = new Instafeed({
+                  target: 'instafeed-grid',
+                    get: 'tagged',
+                    tagName: 'awesome',
+                  clientId: 'd7d55f56a11840ffbe134f3cb558057a',
+                  accessToken: '3562688430.ceddd6d.c54fa5142fa847f89827e5cf9b19d885',
+                  resolution: 'low_resolution',
+                  limit: '9',
+                  template: '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>'
+              });
 
       InstafeedRow.run();
       InstafeedGrid.run();
-
+      console.log(Instafeed);
     });
   </script>
 
