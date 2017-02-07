@@ -1,9 +1,3 @@
-
-
-
-  </body>
-
-</html>
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
@@ -44,6 +38,8 @@
   <script type="text/javascript" src="/assets/js/scripts.js"></script>
 
   <!-- Instafeed -->
+  {% assign row_template = '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>' %}
+  {% assign grid_template = '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>' %}
   <script type="text/javascript">
     $(window).load(function() {
 
@@ -54,23 +50,21 @@
                   accessToken: '841399.d7d55f5.c096cc2a4774459b98cc5ce6b708e0ac',
                   resolution: 'low_resolution',
                   limit: '6',
-                  template: '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>'
+                  template: '{{row_template}}'
               });
 
               var InstafeedGrid = new Instafeed({
                   target: 'instafeed-grid',
                   get: 'user',
                   userId: '841399',
-                  clientId: 'd7d55f56a11840ffbe134f3cb558057a',
                   accessToken: '841399.d7d55f5.c096cc2a4774459b98cc5ce6b708e0ac',
                   resolution: 'low_resolution',
                   limit: '9',
-                  template: '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>'
+                  template: '{{grid_template}}'
               });
 
       InstafeedRow.run();
       InstafeedGrid.run();
-      console.log(Instafeed);
     });
   </script>
 
