@@ -7,8 +7,8 @@
       <h3 class="widget-title heading">About Me</h3>
     </div>
     <img src="/assets/img/josh_bio.png" alt="">
-    <p class="mb-20 mt-30">A personal diary of wanderlust and an overflowing wardrobe. Live with passion.</p>
-    <img src="/assets/img/signature.png" alt="">
+    <p class="mb-20 mt-30">I have thrown in my job and am embarking on a year or more of travelling and working.</p>
+    <!-- <img src="/assets/img/signature.png" alt=""> -->
   </div>
 
   <!-- Newsletter -->
@@ -38,18 +38,18 @@
     <ul class="list-dividers">
     {% for category in site.categories %}
       <li>
-        <a href="#">{{category.first}}</a><span>({{category | last | size}})</span>
+        <a href="#">{{site.category_titles[category.first]}}</a><span>({{category | last | size}})</span>
       </li>
     {% endfor %}
     </ul>
   </div>
 
   <!-- Ad banner -->
-  <div class="widget custom-ad-banner">
+  <!-- <div class="widget custom-ad-banner">
     <a href="#">
       <img src="/assets/img/banner.jpg" alt="">
     </a>
-  </div>
+  </div> -->
 
   <!-- Recent Posts -->
   <!-- <div class="widget recent-posts">

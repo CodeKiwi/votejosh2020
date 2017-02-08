@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 'Josh meet world'
 ---
 
 <section class="header-wrap hero-section hero-img">
@@ -25,8 +26,8 @@ layout: default
           <div class="gallery-cell">
             <article>
               <a href="{{post.url}}" class="entry-img">
-                <img src="assets/img/heros/{{ post.hero }}" alt="">
-                <span class="entry-category">{{post.categories.first}}</span>
+                <img src="assets/img/heros/{{ post.hero }}-small.png" alt="">
+                <span class="entry-category">{{site.category_titles[post.categories.first]}}</span>
               </a>
               <div class="entry text-center">
                 <h4 class="entry-title uppercase"><a href="{{ post.url }}">{{post.title}}</a></h4>
@@ -53,7 +54,7 @@ layout: default
             <article class="entry-item large-post">
 
               <div class="entry-header">
-                <a href="/{{post.categories | first }}" class="entry-category">{{post.categories | first }}</a>
+                <a href="/{{post.categories | first }}" class="entry-category">{{site.category_titles[post.categories.first]}}</a>
                 <h2 class="entry-title">
                   <a href="{{ post.url }}">{{post.title}}</a>
                 </h2>
@@ -61,7 +62,7 @@ layout: default
 
               <div class="entry-img">
                 <a href="{{ post.url }}">
-                  <img src="assets/img/heros/{{ post.hero }}" alt="">
+                  <img src="assets/img/heros/{{ post.hero }}-hero.png" alt="">
                 </a>
               </div>
 
@@ -113,14 +114,14 @@ layout: default
               <div class="col-sm-6">
                 <article class="entry-item">
                   <div class="entry-img">
-                    <a href="blog-single.html">
-                      <img src="assets/img/heros/{{ post.hero }}" alt="">
+                    <a href="{{post.url}}">
+                      <img src="assets/img/heros/{{ post.hero }}-small.png" alt="">
                     </a>
                   </div>
                   <div class="entry-header">
-                    <a href="#" class="entry-category">Lifestyle</a>
+                    <a href="#" class="entry-category">{{site.category_titles[post.categories.first]}}</a>
                     <h2 class="entry-title">
-                      <a href="blog-single.html">{{ post.title }}</a>
+                      <a href="{{post.url}}">{{ post.title }}</a>
                     </h2>
                   </div>
                   <div class="entry-wrap">
@@ -132,11 +133,11 @@ layout: default
                       <div class="entry-meta-wrap clearfix">
                         <ul class="entry-meta">
                           <li class="entry-date">
-                            <a href="#">August 30, 2016</a>
+                            <a href="#">{{post.date | date_to_string}}</a>
                           </li>
-                          <li class="entry-comments">
+                          <!-- <li class="entry-comments">
                             <a href="blog-single.html">2 Comments</a>
-                          </li>
+                          </li> -->
                         </ul>
                       </div>
                     </div>

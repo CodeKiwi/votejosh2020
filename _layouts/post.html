@@ -14,12 +14,12 @@ layout: default
               <article class="entry-item large-post" itemscope itemtype="http://schema.org/BlogPosting">
 
                 <div class="entry-header">
-                  <a href="/{{page.categories.first}}" class="entry-category">{{page.categories.first}}</a>
+                  <a href="/{{page.categories.first}}" class="entry-category">{{site.category_titles[page.categories.first]}}</a>
                   <h1 class="entry-title">{{page.title}}</h1>
                 </div>
 
                 <div class="entry-img">
-                  <img src="/assets/img/heros/{{page.hero}}" alt="">
+                  <img src="/assets/img/heros/{{page.hero}}-hero.png" alt="">
                 </div>
 
                 <div class="entry-wrap">
@@ -57,7 +57,7 @@ layout: default
                       </div>
 
                       <!-- entry author -->
-                      <div class="entry-author-box clearfix">
+                      <!-- <div class="entry-author-box clearfix">
                         <img src="img/author.jpg" class="author-img" alt="img">
                         <div class="author-info">
                           <h6 class="author-name"><a href="#">Alexis Ran</a></h6>
@@ -71,10 +71,10 @@ layout: default
                             <a href="#"><i class="fa fa-heart"></i></a>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
 
                       <!-- related posts -->
-                      <div class="related-posts mt-40">
+                      <!-- <div class="related-posts mt-40">
                         <div class="heading-lines mb-30">
                           <h3 class="heading small">Related Posts</h3>
                         </div>
@@ -138,81 +138,7 @@ layout: default
                             </article>
                           </div>
                         </div>
-                      </div>
-
-                      <!-- Comments -->
-                      <div class="entry-comments mt-20">
-                        <div class="heading-lines mb-30">
-                          <h3 class="heading small">3 comments</h3>
-                        </div>
-
-                        <ul class="comment-list">
-                          <li>
-                            <div class="comment-body">
-                              <img src="img/comment_1.jpg" class="comment-avatar" alt="">
-                              <div class="comment-content">
-                                <span class="comment-author">Joeby Ragpa</span>
-                                <span class="comment-date">August 6, 2016 at 12:48 pm</span>
-                                <p>This template is so awesome. I didn’t expect so many features inside. E-commerce pages are very useful, you can launch your online store in few seconds. I will rate 5 stars.</p>
-                                <a href="#">Reply</a>
-                              </div>
-                            </div>
-
-                            <ul class="comment-reply">
-                              <li>
-                                <div class="comment-body">
-                                  <img src="img/comment_2.jpg" class="comment-avatar" alt="">
-                                  <div class="comment-content">
-                                    <span class="comment-author">Alexander Samokhin</span>
-                                    <span class="comment-date">August 6, 2016 at 12:48 pm</span>
-                                    <p>This template is so awesome. I didn’t expect so many features inside. E-commerce pages are very useful, you can launch your online store in few seconds. I will rate 5 stars.</p>
-                                    <a href="#">Reply</a>
-                                  </div>
-                                </div>
-                              </li> <!-- end reply comment -->
-                            </ul>
-
-                          </li> <!-- end 1-2 comment -->
-
-                          <li>
-                            <div class="comment-body">
-                              <img src="img/comment_3.jpg" class="comment-avatar" alt="">
-                              <div class="comment-content">
-                                <span class="comment-author">Christopher Robins</span>
-                                <span class="comment-date">May 6, 2014 at 12:48 pm</span>
-                                <p>This template is so awesome. I didn’t expect so many features inside. E-commerce pages are very useful, you can launch your online store in few seconds. I will rate 5 stars.</p>
-                                <a href="#">Reply</a>
-                              </div>
-                            </div>
-                          </li> <!-- end 3 comment -->
-
-                        </ul>
-                      </div> <!--  end comments -->
-
-                      <!-- Leave a Comment -->
-                      <div class="comment-form mt-60">
-                        <div class="heading-lines mb-30">
-                          <h3 class="heading small">Leave a Comment</h3>
-                        </div>
-                        <form id="form" method="post" action="#">
-                          <div class="row row-16">
-                            <div class="col-md-4">
-                              <input name="name" id="name" type="text" placeholder="Name*">
-                            </div>
-                            <div class="col-md-4">
-                              <input name="mail" id="mail" type="email" placeholder="E-mail*">
-                            </div>
-                            <div class="col-md-4">
-                              <input name="Website" id="Website" type="text" placeholder="Website">
-                            </div>
-                            <div class="col-md-12">
-                              <textarea name="comment" id="comment" placeholder="Comment" rows="8"></textarea>
-                            </div>
-                          </div>
-
-                          <input type="submit" class="btn btn-lg btn-color mt-20" value="Post Comment" id="submit-message">
-                        </form>
-                      </div>
+                      </div> -->
 
                     </div>
                   </div>

@@ -2,8 +2,8 @@
 layout: post
 title:  "So long & thanks for all the fish"
 date:   2017-01-26 08:20:54 +1300
-categories: new_zealand
-hero: bye_melbourne.png
+categories: musings
+hero: bye_melbourne
 ---
 > I have jumped,  
 > I have foregone comfort.  
