@@ -67,7 +67,7 @@ p {
 	}
 }
 
-.heading-lines { 
+.heading-lines {
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -313,17 +313,20 @@ blockquote {
 }
 
 .list.bullets,
+div.article ul,
 .list.numbers {
   padding-left: 20px;
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
-.list.bullets li {
+.list.bullets li,
+div.article li {
   list-style-type: disc;
 }
 
 .bullets li,
+div.article li,
 .numbers li {
   margin-bottom: 7px;
   color: $text-color;

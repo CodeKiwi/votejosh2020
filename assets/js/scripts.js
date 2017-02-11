@@ -17,8 +17,8 @@
 
 
   $(window).resize(function(){
-    container_full_height_init();  
-    
+    container_full_height_init();
+
     var windowWidth = $(window).width();
     if (windowWidth <= 974) {
       $('.dropdown-toggle').attr('data-toggle', 'dropdown');
@@ -33,7 +33,7 @@
       $('.local-scroll.desktop-offset-0').localScroll({offset: {top: 0},duration: 1500,easing:'easeInOutExpo'});
     }
 
-    /* Mobile Navigation 
+    /* Mobile Navigation
     -------------------------------------------------------*/
     if (windowWidth > 974 & $('html').hasClass('mobile')) {
       $('.navbar-nav > li.dropdown > a').on('click', function(e){ e.preventDefault(); });
@@ -46,7 +46,7 @@
     /* Mobile Menu Resize
     -------------------------------------------------------*/
     $(".navbar .navbar-collapse").css("max-height", $(window).height() - $(".navbar-header").height() );
-    
+
   });
 
 
@@ -54,7 +54,7 @@
   -------------------------------------------------------*/
   $(window).scroll(function(){
 
-    var windowWidth = $(window).width();    
+    var windowWidth = $(window).width();
     if ($(window).scrollTop() > 10 & windowWidth > 974){
       $('header.sticky-nav .navigation').addClass("sticky");
     } else {
@@ -102,7 +102,7 @@
     $('.search-wrap').fadeOut(200);
     $('.nav-search, #search-close').removeClass("open");
   }
-    
+
   $(document.body).on('click',function(e) {
     closeSearch();
   });
@@ -145,7 +145,7 @@
       /* Single Image
       -------------------------------------------------------*/
 
-      $("#owl-single").owlCarousel({     
+      $("#owl-single").owlCarousel({
         navigation: true,
         pagination: true,
         slideSpeed: 300,
@@ -161,7 +161,7 @@
   /* Blog Masonry / FlexSlider
   -------------------------------------------------------*/
 
-   
+
   // Flexslider / Masonry
   $('#flexslider').flexslider({
     animation: "fade",
@@ -207,7 +207,7 @@
     arrowShape: 'M 30,50 L 55,75 L 60,70 L 40,50  L 60,30 L 55,25 Z'
   });
 
-  
+
   /* Accordion
   -------------------------------------------------------*/
   function toggleChevron(e) {
@@ -223,7 +223,7 @@
   /* Toggle
   -------------------------------------------------------*/
   var allToggles = $(".toggle > .panel-content").hide();
-  
+
   $(".toggle > .acc-panel > a").on('click', function(){
 
     if ($(this).hasClass("active")) {
@@ -236,8 +236,8 @@
       $(this).addClass("active");
       $(this).parent().next().slideDown("easeOutExpo");
     }
-    
-    return false;       
+
+    return false;
   });
 
 
@@ -254,7 +254,7 @@
     mobile: false
   });
 
-  
+
 
   /* FitVIds
   -------------------------------------------------------*/
@@ -271,10 +271,10 @@
     e.preventDefault();
 
     var $this = $(this);
-    
+
     $.ajax({
       type: "POST",
-      url: 'contact.php',
+      url: '/assets/contact.php',
       dataType: 'json',
       cache: false,
       data: $('#contact-form').serialize(),
@@ -312,7 +312,7 @@
       }
     }, false );
   }
-  
+
 })();
 
 $(window).scroll(function(event){
