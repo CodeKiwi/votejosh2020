@@ -2,12 +2,54 @@
 <!-- Sidebar -->
 <aside class="col-md-3 sidebar">
 
+{% if page.map_id %}
+  <div class="widget about-blog text-center">
+    <div class="heading-lines">
+      <h3 class="widget-title heading">Where was this?</h3>
+    </div>
+    <iframe src="https://embed.alpacamaps.com/{{page.map_id}}/embed" height="450" style="border:1px #d5d5d5 solid;min-height:300px" allowFullScreen></iframe>
+  </div>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<!-- Recent Posts -->
+<div class="widget recent-posts">
+<div class="heading-lines">
+  <h3 class="widget-title heading">Recent Posts</h3>
+</div>
+<div class="entry-list w-thumbs">
+  <ul class="posts-list list-dividers">
+    {% for post in site.posts limit:4 %}
+    <li class="entry-li">
+      <article class="post-small clearfix">
+        <div class="entry-img">
+          <a href="{{ post.url }}">
+            <img style="width:80px" src="/assets/img/heros/{{ post.hero }}-small.png" alt="">
+          </a>
+        </div>
+        <div class="entry">
+          <h3 class="entry-title"><a href="{{ post.url }}">{{ post.title}}</a></h3>
+          <ul class="entry-meta list-inline">
+            <li class="entry-date">
+              <a href="#">{{ post.date | date_to_string }}</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
+
+{%endif%}
+
   <div class="widget about-blog text-center">
     <div class="heading-lines">
       <h3 class="widget-title heading">About Me</h3>
     </div>
     <img src="/assets/img/josh_bio.png" alt="">
-    <p class="mb-20 mt-30">I have thrown in my job and am embarking on a year or more of travelling and working.</p>
+    <p class="mb-20 mt-30">So here I am, embarking on a journey into places unknown, to travel with people I have never met, to do work that I have not secured for clients and projects that, at this stage don’t exist.</p>
     <!-- <img src="/assets/img/signature.png" alt=""> -->
   </div>
 
@@ -49,36 +91,6 @@
     <a href="#">
       <img src="/assets/img/banner.jpg" alt="">
     </a>
-  </div> -->
-
-  <!-- Recent Posts -->
-  <!-- <div class="widget recent-posts">
-    <div class="heading-lines">
-      <h3 class="widget-title heading">Recent Posts</h3>
-    </div>
-    <div class="entry-list w-thumbs">
-      <ul class="posts-list list-dividers">
-        {% for post in site.posts limit:4 %}
-        <li class="entry-li">
-          <article class="post-small clearfix">
-            <div class="entry-img">
-              <a href="{{ post.url }}">
-                <img src="assets/img/heros/{{ post.hero }}" alt="">
-              </a>
-            </div>
-            <div class="entry">
-              <h3 class="entry-title"><a href="{{ post.url }}">{{ post.title}}</a></h3>
-              <ul class="entry-meta list-inline">
-                <li class="entry-date">
-                  <a href="#">{{ post.date | date_to_string }}</a>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
   </div> -->
 
   <!-- Latest Tweets -->
