@@ -128,7 +128,7 @@ video {
   left:0;
   right:0;
   bottom:0;
-  background-color:#fff; 
+  background-color:#fff;
   z-index:99999;
 }
 
@@ -280,21 +280,21 @@ video {
 /* Magic Line
 -------------------------------------------------------*/
 
-#magic-line-wrap { 
+#magic-line-wrap {
   position: relative;
 }
 
-#magic-line-wrap li { 
+#magic-line-wrap li {
   display: inline-block;
   position: static;
 }
 
-#magic-line { 
+#magic-line {
   position: absolute !important;
-  bottom: -1px; 
-  left: 0; 
-  width: 100px; 
-  height: 3px; 
+  bottom: -1px;
+  left: 0;
+  width: 100px;
+  height: 3px;
   background: $main-color;
 }
 

@@ -7,7 +7,7 @@ module Jekyll
     end
 
     def render(context)
-      "<div class='embed instagram' style='height:300px;float:right;'>#{iframe_for(@hash)}</div>"
+      "<div class='embed instagram' style='height:300px;float: right; margin: 5px 0 30px 30px;'>#{iframe_for(@hash)}</div>"
     end
 
     def iframe_for(hash)
