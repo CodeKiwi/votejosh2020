@@ -6,4 +6,4 @@ layout: page
 title: Thank you
 permalink: /thankyou/
 ---
-Thanks for subscribing, I'll be in touch.
+Thanks for reaching out, I'll be in touch.
