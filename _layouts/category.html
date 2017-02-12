@@ -20,7 +20,7 @@ layout: default
         <!-- list posts -->
         <div class="row items-list">
 
-        {% for post in site.categories.[page.category] %}
+        {% for post in site.categories[page.category] %}
         <article class="entry-item clearfix">
           <div class="col-sm-5">
             <div class="entry-img">
@@ -58,7 +58,7 @@ layout: default
         {% endfor %}
 
         </div> <!-- end list posts -->
-<!-- 
+<!--
 
         <div class="row mt-20">
           <div class="col-md-12 text-center">
