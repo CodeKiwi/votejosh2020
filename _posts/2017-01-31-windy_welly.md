@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  Windy Wellington
-date:   2017-02-03
+date:   2017-01-31
 categories: antipodes
 hero: rainy_welly
 map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
 ---
-This is where my journey begins, in the coldest summer Wellington has had in 30 years or so I'm told, racking up only a miserable [8 beach days for the whole of January](http://www.stuff.co.nz/national/88981586/wellingtons-bummer-summer-fewest-beach-days-in-30-years). Wellington is known for its crappy weather however this year it seems it has gone to extraordinary lengths to ruin BBQ's for everyone.
+This is where my journey begins, in the coldest summer Wellington has had in 30 years or so I'm told, racking up only a miserable [8 beach days for the whole of January](http://www.stuff.co.nz/national/88981586/wellingtons-bummer-summer-fewest-beach-days-in-30-years).
+
+Wellington is known for its crappy weather however this year it seems it has gone to extraordinary lengths to ruin BBQ's for everyone.
 
 {% instagram BP3SHSxggGk %}
 I landed in country on the Thursday, the first weekend was the wedding of my good friends Emma and Nick at the wonderful [BoomRock](http://www.boomrock.co.nz/). The weather gods smiled on us that one day with absolutely stunning weather combined with with jaw dropping views of the Kapiti coast (I'll be back here in a few weeks) - Check out this amazing photo of the newlyweds with the South Island looming large in the background (those who know Wellington will know this is anything but a given).
