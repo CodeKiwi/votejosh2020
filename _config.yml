@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joshmeetworld.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: codekiwi
 github_username:  codekiwi
-
+permalink: /:categories/:year/:month/:title
 # Build settings
 markdown: kramdown
 # theme: minima

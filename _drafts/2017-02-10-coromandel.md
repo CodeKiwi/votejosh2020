@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coromandal"
+title:  "Coromandel"
 date:   2017-02-10
 categories: antipodes
 hero: coromandal_beach
