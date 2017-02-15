@@ -52,8 +52,9 @@
     <!-- <img src="/assets/img/signature.png" alt=""> -->
   </div>
 
-  {% include subscribe.html %}
-
+  {% if page.layout != 'post' %}
+    {% include sidebar_subscribe.html %}
+  {% endif %}
   <!-- Instagram Feed Grid -->
   <div class="widget instagram">
     <div class="heading-lines">
