@@ -26,7 +26,7 @@ I have included a map of the journey just to highlight just how remote our lodgi
 
 Our accommodation is situated high up in the hills in Tuateawa nestled amongst the native bush, despite the signs warning of Kiwi's in the area we didn't encounter any. We did however see a number of Tui and Kererū up at the house and the protected New Zealand Dotterels and Oystercatchers on our morning walks down on the beach.
 
-![Waikawau beach, more like Waika-wow](/assets/img/posts/coro2.png){:class="alignleft"} Waikawau beach really left and impression on me - more like Waikaw-wow! It was located five minutes drive from our accommodation and is the sort of beach that only seems to exist in New Zealand. The sort you would expect to see on an Air New Zealand safety video.
+![Waikawau beach, more like Waika-wow](/assets/img/posts/coro2.png){:class="alignleft"} Waikawau beach really left an impression on me - more like Waikaw-wow! It was located five minutes drive from our accommodation and is the sort of beach that only seems to exist in New Zealand. The sort you would expect to see on an Air New Zealand safety video.
 
 Stunningly beautiful, but still rugged and slightly inhospitable, likely in the same pristine state as when Captain Cook first set eyes on the place. Golden sand and sun as stretching into the distance but not a single other soul in sight. A little more exposed as the aptly named 'Little bay' just around the corner which was better suited regular beach relaxing activities.
 

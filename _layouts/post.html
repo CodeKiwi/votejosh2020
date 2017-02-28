@@ -173,5 +173,6 @@ layout: default
     {% include disqus_comments.html %}
   {% endif %}
 </article> -->
-
-              {% include subscribe.html %}
+{% unless page.hide_subscription %}
+              {% include subscribe.html  %}
+              {% endunless %}

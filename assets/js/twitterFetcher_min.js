@@ -24,8 +24,8 @@ q[c]+'" class="twitter_fav_icon"'+(t?' target="_blank">':">")+"Favorite</a></p>"
 
 
 // Twitter Feed
-	var config1 = {
-  "id": '191659473',
+var config1 = {
+  "id": '831953044568879104',
   "domId": 'tweets',
   "showUser": false,
   "showInteraction": false,
@@ -33,4 +33,6 @@ q[c]+'" class="twitter_fav_icon"'+(t?' target="_blank">':">")+"Favorite</a></p>"
   "maxTweets": 3,
   "enableLinks": true
 };
-twitterFetcher.fetch(config1);
+if ($('.twitter-slider').length) {
+    twitterFetcher.fetch(config1);
+}

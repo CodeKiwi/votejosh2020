@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Josh meet world
+title: "#Josh2020"
 email: josh.bondy@codekiwi.com
 description: So here I am, embarking on a journey into places unknown, to travel with people I have never met, to do work that I have not secured for clients and projects that, at this stage don’t exist.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://joshmeetworld.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://votejosh2020.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: codekiwi
 github_username:  codekiwi
 permalink: /:categories/:year/:month/:title
@@ -33,3 +33,4 @@ category_titles:
     antipodes: 'Antipodes'
     europe: 'Europe'
     musings: 'Musings'
+    projects: 'Projects'

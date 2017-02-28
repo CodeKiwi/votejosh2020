@@ -42,7 +42,7 @@
   {% assign grid_template = '<li class="instagram-item"><a target="_blank" href="{{link}}"><img class="instagram-img" alt="Instagram Image" src="{{image}}"/></a></li>' %}
   <script type="text/javascript">
     $(window).load(function() {
-
+            if ($('#instafeed-row').length) {
               var InstafeedRow = new Instafeed({
                   target: 'instafeed-row',
                   get: 'user',
@@ -52,7 +52,9 @@
                   limit: '6',
                   template: '{{row_template}}'
               });
-
+              InstafeedRow.run();
+            }
+            if ($('#instafeed-grid').length) {
               var InstafeedGrid = new Instafeed({
                   target: 'instafeed-grid',
                   get: 'user',
@@ -62,9 +64,8 @@
                   limit: '9',
                   template: '{{grid_template}}'
               });
-
-      InstafeedRow.run();
-      InstafeedGrid.run();
+              InstafeedGrid.run();
+            }
     });
   </script>
   <script>
