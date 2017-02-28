@@ -33,7 +33,7 @@ I will engage with people individually, in groups and with the group as a whole 
 * Participate in market research for an upcoming project or hair-brained scheme
 * Review a book chapter or particularly long post
 * Test out a new product
-* assist in promoting a new project
+* Assist in promoting a new project
 * Help me form a government (you may have noticed the quiet rebranding of this site)
 
 ### All are welcome on the Super-yacht,<br />but it is crew only, no passengers.
