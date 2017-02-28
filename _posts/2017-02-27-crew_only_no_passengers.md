@@ -16,11 +16,11 @@ I want my journey to be opt-in, first shared to those truly interested, not simp
 
 Facebook & LinkedIn are great tools for communicating and connecting people but terrible for engagement. In my opinion a 'like' is akin to a raised eyebrow. Whereas most comments are the social equivalent of "Oh, yep" in response to a conversation. I am aware I may not garner terribly many of either for this particular post. I love getting likes and comments as much as the next guy, but I want to turn this basic engagement into a meaningful dialog.
 
-There is an exception to this though, linking-to, reposting or sharing someones post on ones own channels This is always meaningful and always appreciated (wink). Unlike a 1-1 exchange between author and reader it is a public endorsement of the Authors point of view and vastly increases the potential eyeballs - furthermore someone sharing someone else's work carries more authority than someones own self-promotion.
+There is an exception to this though, linking-to, reposting or sharing someones post on ones own channels. Unlike a 1-1 exchange between author and reader it is a public endorsement of the authors point of view and vastly increases the potential eyeballs - furthermore someone sharing someone else's work carries more authority than someones own self-promotion. This is always meaningful and always appreciated ([wink](https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url }})).
 
 So with this in mind, I won't be posting to Facebook or LinkedIn quite so much moving forward. Save for the occasional post to remind those who might be lagging behind that I am still around.
 
-My primary communication medium will be through this site and a group I am calling the 'Super-yacht guest list'. For now just a mailing list but I hope to build a community around it.
+My primary medium will be this site and a group I am calling the 'Super-yacht guest list'. For now just a mailing list but I hope to build a community around it.
 
 ![Join me by the pool](/assets/img/posts/pool.png){:class="alignright"}
 ### Reserve your spot
