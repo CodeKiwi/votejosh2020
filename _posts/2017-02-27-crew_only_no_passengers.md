@@ -45,7 +45,7 @@ It goes without saying, I won't be sleazy with your details or injudicious with 
     </div>
     <div class="col-sm-8">
         <div class="widget newsletter">
-          <form class="validate relative newsletter-form" action="//joshmeetworld.us15.list-manage.com/subscribe/post?u=27f8796bb9a511ec1d9760d97&amp;id=90cacc3d6f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <form class="validate relative newsletter-form" action="//joshmeetworld.us15.list-manage.com/subscribe/post?u=27f8796bb9a511ec1d9760d97&amp;id=90cacc3d6f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
           <input type="submit" value="Join the guest list" name="subscribe" id="submit-button" class="btn btn-lg btn-color">
           </form>
