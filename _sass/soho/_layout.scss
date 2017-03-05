@@ -377,3 +377,11 @@
 .page-404 p {
   font-size: 14px;
 }
+.big-map {
+    margin:30px;
+    iframe {
+            width:100%;
+            border:1px #d5d5d5 solid;
+            min-height:300px;
+    }
+}

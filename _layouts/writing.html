@@ -6,15 +6,10 @@ layout: default
   <div class="container relative">
     <div class="row">
         <div class="entry-header">
-            <h1 class="heading underline-title uppercase">{{page.category}}</h1>
+            <h1 class="heading underline-title uppercase">{{page.title}}</h1>
             {% unless page.content == '' %}
                 <p>{{ page.content }}</p>
             {% endunless %}
-            {% if page.category == 'antipodes'%}
-            <div class="big-map">
-              <iframe src="https://embed.alpacamaps.com/a77ea8f8-e91b-11e6-a4a7-024bc0398b11/embed" height="650" style="" allowFullScreen></iframe>
-            </div>
-            {% endif %}
         </div>
       <!-- post content -->
       <div class="col-md-9 post-content mb-50">
@@ -22,7 +17,7 @@ layout: default
         <!-- list posts -->
         <div class="row items-list">
 
-        {% for post in site.categories[page.category] %}
+        {% for post in site.posts %}
         <article class="entry-item clearfix">
           <div class="col-sm-5">
             <div class="entry-img">
