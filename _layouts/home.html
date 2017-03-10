@@ -6,7 +6,7 @@ title: 'Josh meet world'
 <section class="header-wrap hero-section hero-img">
   <div class="container">
     <div class="hero-holder">
-      <h1 class="white mb-0">Hi, I'm Josh<br>I travel, work and write about it</h1>
+      <h1 class="white mb-0">Hi, I'm Josh<br>I travel, build stuff and write about it</h1>
     </div>
   </div>
 </section>
@@ -48,7 +48,7 @@ title: 'Josh meet world'
         <div class="col-md-9 post-content mb-50">
 
         {% assign counter = 0 %}
-        {% for post in site.posts %}
+        {% for post in site.posts limit:5 %}
         {% if counter == 0 %}
             <!-- large post -->
             <article class="entry-item large-post">
@@ -86,24 +86,14 @@ title: 'Josh meet world'
                         <a href="blog-single.html">2 Comments</a>
                       </li> -->
                     </ul>
-<!--
+
                     <div class="social-icons right">
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fa fa-pinterest-p"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fa fa-heart"></i>
-                      </a>
-                    </div> -->
+                      <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ post.url }}"><i class="fa fa-facebook"></i></a>
+                      <a href="https://twitter.com/home?status={{ post.excerpt | strip_html }}%20{{site.url}}{{ post.url }}%20%23josh2020"><i class="fa fa-twitter"></i></a>
+                      <a href="https://pinterest.com/pin/create/button/?url={{site.url}}{{ post.url }}&media={{site.url}}/assets/img/heros/{{post.hero}}-hero.png&description={{post.excerpt | strip_html }}"><i class="fa fa-pinterest-p"></i></a>
+                      <a href="https://plus.google.com/share?url={{site.url}}{{ post.url }}"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{ post.url }}&title={{post.title}}&summary={{post.excerpt | strip_html }}&source="><i class="fa fa-linkedin-square"></i></a>
+                    </div>
               </div>
 
             </div>
@@ -147,12 +137,12 @@ title: 'Josh meet world'
         {% endif %}
         {% assign counter = counter | plus: 1 %}
         {% endfor %}
-<!--
+
           <div class="row mt-20">
             <div class="col-md-12 text-center">
-              <a href="#" class="btn btn-md btn-stroke" id="load-more">Load More</a>
+              <a href="/writing" class="btn btn-md btn-stroke" id="load-more">Read More</a>
             </div>
-          </div> -->
+          </div>
 
 
         </div> <!-- end col -->

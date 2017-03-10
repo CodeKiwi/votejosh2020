@@ -6,4 +6,25 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Projects that I'm working on will appear here
+Past, present and future projects will be presented here.
+
+### [AAMI SmartPlates](http://aamismartplates.com.au) ![My wheels](/assets/img/heros/coromandal-small.png){:class="alignleft"}
+SmartPlates, is a mobile app transforming how Australian kids learn to drive. Sponsored by AAMI insurance and developed during my time at Ogilvy.
+
+I was responsible for all technical aspects this project from idea to delivery including the development of a functional prototype (back when a bluetooth IOT component was included) and overall system architecture & design.
+
+[Visit project](http://aamismartplates.com.au)
+
+* * *
+
+### Know thy data ![My wheels](/assets/img/heros/coromandal-small.png){:class="alignright"}
+The first step for any data analysis project is getting to 'know your data' before you get started. This crucial can save hours of pain. Learn what's lurking in that shiny new datafile, and save your time for the clever stuff.
+
+Know thy data is a set of tools for data scientists to explore a dataset before they commit time to the model building process.
+
+[Visit project](http://knowthydata.io)
+
+* * *
+
+### Yes, Drill Sergeant!
+Tough Love to Get in Shape, our Sergeants will whip you into shape and make it fun to boot. A fun iOS fitness app that combines bootcamp style workouts with drill sergeant motivations.

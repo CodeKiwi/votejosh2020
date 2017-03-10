@@ -6,4 +6,4 @@ layout: travel
 title: Travel & Adventures
 permalink: /travel/
 ---
-Follow me as I travel around the world.
+Follow me on my travels, starting out in Melbourne & New Zealand. Followed by a stint in Europe, on to Asia and finishing up in South America.

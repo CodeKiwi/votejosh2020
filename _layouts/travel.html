@@ -18,7 +18,11 @@ layout: default
         <div class="row items-list">
         {% assign travel_categories = "antipodes|europe" | split:"|" %}
         {% for category in travel_categories %}
-            <h2>{{site.categories_titles[category]}}
+            <div class="row">
+                <div class="entry-header">
+                <h2>{{site.category_titles[category]}}
+                </div>
+            </div>
             {% for post in site.categories[category] %}
             <article class="entry-item clearfix">
               <div class="col-sm-5">
