@@ -8,7 +8,7 @@ permalink: /projects/
 ---
 Past, present and future projects will be presented here.
 
-### [AAMI SmartPlates](http://aamismartplates.com.au) ![My wheels](/assets/img/heros/coromandal-small.png){:class="alignleft"}
+### [AAMI SmartPlates](http://aamismartplates.com.au) ![My wheels](/assets/img/posts/smartplates.png){:class="alignleft"}
 SmartPlates, is a mobile app transforming how Australian kids learn to drive. Sponsored by AAMI insurance and developed during my time at Ogilvy.
 
 I was responsible for all technical aspects this project from idea to delivery including the development of a functional prototype (back when a bluetooth IOT component was included) and overall system architecture & design.
@@ -17,7 +17,7 @@ I was responsible for all technical aspects this project from idea to delivery i
 
 * * *
 
-### Know thy data ![My wheels](/assets/img/heros/coromandal-small.png){:class="alignright"}
+### Know thy data ![Know thy data](/assets/img/posts/knowthydata.png){:class="alignright"}
 The first step for any data analysis project is getting to 'know your data' before you get started. This crucial can save hours of pain. Learn what's lurking in that shiny new datafile, and save your time for the clever stuff.
 
 Know thy data is a set of tools for data scientists to explore a dataset before they commit time to the model building process.
@@ -26,5 +26,7 @@ Know thy data is a set of tools for data scientists to explore a dataset before 
 
 * * *
 
-### Yes, Drill Sergeant!
+### Yes, Drill Sergeant! ![Yes, Drill Sergeant!](/assets/img/posts/yesdrillsergeant.png){:class="alignleft"}
 Tough Love to Get in Shape, our Sergeants will whip you into shape and make it fun to boot. A fun iOS fitness app that combines bootcamp style workouts with drill sergeant motivations.
+
+[Visit project](http://yesdrillsergeant.com)
