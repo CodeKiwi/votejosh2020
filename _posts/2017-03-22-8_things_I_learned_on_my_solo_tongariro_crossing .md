@@ -4,6 +4,7 @@ title:  "8 things I learned on my solo Tongariro crossing"
 date:   2017-03-22
 categories: antipodes
 hero: tongariro
+map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
 ---
 The Tongariro crossing is regarded as one of the greatest single day treks in New Zealand if not the world, so it seemed only fitting that before I head off for adventures around the world that I complete one at home while I am there.
 
@@ -66,4 +67,4 @@ When I'm out walking nothing irritates me more than a group of (more often than 
 
 ![Pretty New Zealand Alpine flora](/assets/img/posts/tongariro_start.png){:class="alignleft"} I grew up frequenting the central plateau each ski season, the area holds a special place for me. I love the stark barren beauty of the region, specifically the distinct transition of the landscape as the altitude increases. The vegetation changes from dense impenetrable native bush, thinning out to golden tussock plains which give way to wind-swept grasses, mosses and mountain flowers, even those finally succumbing to the barren almost other worldly landscape above 2000m where only a hardly few plants survive.
 
-This was an awesome experience that I am so glad that I managed to fit it and can highly recommend. Given the popularity of the region I wouldn't be surprised if the Department of Conservation starts imposing access restrictions to ensure the long term future of the area.
+This was an awesome experience that I am so glad that I managed to fit it and can highly recommend. Given the popularity of the region I wouldn't be surprised if the Department of Conservation starts imposing access restrictions to ensure the long term future of the area. If you are looking to do this, whilst it can pass for a little rustic I can highly recommend the team at [Pipers Lodge](http://www.piperslodge.co.nz/){:target="_blank"}
