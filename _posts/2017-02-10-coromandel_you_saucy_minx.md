@@ -6,7 +6,6 @@ categories: antipodes
 hero: coromandal_beach
 map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
 ---
-
 Moving on from Rotorua early, we headed up to Thames for a spot of lunch - stopping only to take the obligatory giant L&P bottle photo with mum (Kiwi's will know).
 
 We had been forewarned that our accommodation was a _little_ remote so we need to stock up on supplies. We were booked in for five nights so between myself and my brother in law we settle on a modest four dozen for the duration (Sister is pregnant and mum doesn't drink beer so no problems there). I think we also purchased some food.
