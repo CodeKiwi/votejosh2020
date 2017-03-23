@@ -34,3 +34,5 @@ category_titles:
     europe: 'Europe'
     musings: 'Musings'
     projects: 'Projects'
+# Google services
+google_analytics: UA-25638324-2

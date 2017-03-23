@@ -353,3 +353,11 @@ video {
   .items-grid .col-lg-2:nth-child(6n + 7) { clear: left; }
   .items-grid .col-lg-1:nth-child(12n + 13) { clear: left; }
 }
+.panorama {
+	height: 300px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	img {
+		height: 100%;
+	}
+}
