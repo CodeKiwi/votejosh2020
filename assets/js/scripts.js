@@ -61,6 +61,12 @@
       $('header.sticky-nav .navigation').removeClass("sticky");
     }
 
+    if ($(document).scrollTop() > 50) {
+        $('.vote-josh-badge').addClass('shrink');
+    } else {
+        $('.vote-josh-badge').removeClass('shrink');
+    }
+
   });
 
   /* Onepage Nav

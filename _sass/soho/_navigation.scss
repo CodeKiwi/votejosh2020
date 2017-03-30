@@ -203,7 +203,7 @@
 
 // Dropdown hovers
 @media (min-width: 992px) {
-  .dropdown-menu, 
+  .dropdown-menu,
   .dropdown-submenu > .dropdown-menu {
     display: block;
     visibility: hidden;
@@ -532,7 +532,7 @@ header.transparent .navbar-toggle .icon-bar {
 /*-------------------------------------------------------*/
 
 .nav-type-2 {
-  
+
   width: 100%;
   background-color: #fff;
   z-index: 50;
@@ -546,7 +546,7 @@ header.transparent .navbar-toggle .icon-bar {
 
   .nav-wrap {
     width: 100%;
-    
+
     & > div {
       border-top: 1px solid $border-color;
     }
@@ -583,4 +583,23 @@ header.transparent .navbar-toggle .icon-bar {
   }
 }
 
-
+.vote-josh-badge {
+    height: 150px;
+    width: 150px;
+    background-image: url(/assets/img/votejoshbadge2.png);
+    background-size: 100%;
+    left:5px;
+    top:5px;
+    position: absolute;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+.vote-josh-badge.shrink {
+    height: 75px;
+    width: 75px;
+}
