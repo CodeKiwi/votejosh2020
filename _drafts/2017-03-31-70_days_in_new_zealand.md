@@ -35,7 +35,7 @@ During these two months I put more than five thousand kilometers behind me with 
 
 As well as tearing up and down the country I had the honour of attend two weddings during my travels for four wonderful people. First the jaw dropping [BoomRock](http://www.boomrock.co.nz/) for Nick & Emma's overlooking the rugged southern coast on one of the 4 sunny days Wellington puts on in a year, then a month later Anna and James in the Hawke's Bay in the idyllic surrounds of Anna's parents vineyard, complete with a special vintage developed specifically for the event.
 
-So the reason for this part of my travels was not simply to explore my homeland but also to prepare myself for the upcoming year. As you might of guessed by now this blog is going to be my main channel for communicating what I'm doing and trying out new ideas. I wanted to get a solid following and build on it. With the end of the New Zealand portion of the trip I have also kicked off the first instalment of the 'Superyacht guest list', a mailing list for those who are actively interested in following me along my travels
+So the reason for this part of my travels was not simply to explore my homeland but also to prepare myself for the upcoming year. As you might of guessed by now this blog is going to be my main channel for communicating what I'm doing and trying out new ideas. I wanted to get a solid following and build on it. With the end of the New Zealand portion of the trip I have also kicked off the first instalment of the 'Superyacht guest list', a mailing list for those who are actively interested in following me along my travels, [it's not too late to join](/projects/2017/02/crew_only_no_passengers).
 
 ## Where to next
 
