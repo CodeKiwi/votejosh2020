@@ -5,7 +5,7 @@ date:   2017-03-30
 categories: antipodes
 hero: new_zealand
 map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
----
+---  
 
 Two and a half months into my remote working experiment and I must say I reckon I am getting the hang of it. I have come to the end of the New Zealand portion of my travels and am now moving into my travel proper. I'm on my way to my first stop Belgrade, currently sitting in the transit lounge in Melbourne writing this (sorry Melbourne peeps, its just a fly through).
 
