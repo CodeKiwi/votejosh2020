@@ -1,0 +1,45 @@
+
+p.caption {
+  font-size: 0.7rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#controls {
+  overflow: hidden;
+  background: #eee;
+  margin: 0 auto;
+}
+
+  #controls > * {
+    margin: 8px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  #controls > *:hover {
+    opacity: 1;
+  }
+
+
+#toggleplay {
+  float: left;
+  background: url('/assets/vrview/img/ic_pause_black_24dp.svg');
+  width: 24px;
+  height: 24px;
+}
+
+#toggleplay.paused {
+background: url('/assets/vrview/img/ic_play_arrow_black_24dp.svg');
+}
+
+#togglemute {
+float: right;
+background: url('/assets/vrview/img/ic_volume_up_black_24dp.svg');
+width: 24px;
+height: 24px;
+}
+
+#togglemute.muted {
+  background: url('/assets/vrview/img/ic_volume_off_black_24dp.svg');
+}

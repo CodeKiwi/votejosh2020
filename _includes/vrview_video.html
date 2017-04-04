@@ -1,0 +1,61 @@
+
+<link rel="stylesheet" href="/assets/vrview/player_style.css" />
+<div id="vrview"></div>
+<div id="controls">
+  <div id="toggleplay" class="paused"></div>
+  <div id="togglemute"></div>
+</div>
+
+<script src="/assets/vrview/build/vrview.min.js"></script>
+<script type="text/javascript">
+
+    var vrView;
+    var playButton;
+    var muteButton;
+
+    window.addEventListener('load', onVrViewLoad)
+    function onVrViewLoad() {
+      vrView = new VRView.Player('#vrview', {
+        video: '{{ include.src }}',
+        is_stereo: false,
+        width: "100%",
+        height: "300px"
+      });
+    vrView.on('ready', function() {
+      vrView.pause();
+    });
+
+    playButton = document.querySelector('#toggleplay');
+    muteButton = document.querySelector('#togglemute');
+
+    playButton.addEventListener('click', onTogglePlay);
+    muteButton.addEventListener('click', onToggleMute);
+
+    vrView.on('click', function(e) {
+        if (vrView.isPaused) {
+          vrView.play();
+          playButton.classList.remove('paused');
+        }
+    });
+
+    function onTogglePlay() {
+      if (vrView.isPaused) {
+        vrView.play();
+        playButton.classList.remove('paused');
+      } else {
+        vrView.pause();
+        playButton.classList.add('paused');
+      }
+    }
+
+    function onToggleMute() {
+      var isMuted = muteButton.classList.contains('muted');
+      if (isMuted) {
+        vrView.setVolume(1);
+      } else {
+        vrView.setVolume(0);
+      }
+      muteButton.classList.toggle('muted');
+    }
+}
+</script>
