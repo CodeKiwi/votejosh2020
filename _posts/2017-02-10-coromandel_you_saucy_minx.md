@@ -5,6 +5,7 @@ date:   2017-02-10
 categories: antipodes
 hero: coromandal_beach
 map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
+image: "/assets/img/heros/coromandal_beach-small.png"
 ---
 
 Moving on from Rotorua early, we headed up to Thames for a spot of lunch - stopping only to take the obligatory giant L&P bottle photo with mum (Kiwi's will know).

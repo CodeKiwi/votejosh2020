@@ -5,6 +5,7 @@ date:   2017-01-31
 categories: antipodes
 hero: rainy_welly
 map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
+image: "/assets/img/heros/rainy_welly-small.png"
 ---
 This is where my journey begins, in the coldest summer Wellington has had in 30 years or so I'm told, racking up only a miserable [8 beach days for the whole of January](http://www.stuff.co.nz/national/88981586/wellingtons-bummer-summer-fewest-beach-days-in-30-years).
 

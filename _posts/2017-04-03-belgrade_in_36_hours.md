@@ -5,7 +5,9 @@ date:   2017-04-03
 categories: europe
 hero: belgrade
 map_id: 665cbdbe-1907-11e7-a4a7-024bc0398b11
+image: "/assets/img/heros/belgrade-small.png"
 ---  
+
 
 Due to a change in my Remote Year program, I find myself in Belgrade, Serbia with a full day to kill. My original itinerary was cancelled, but I was offered a far superior (IMO) set of [destinations](/the_plan) starting off in Croatia - also [RemoteYear](http://remoteyear.com/){:target='_blank'} paid for the change in plans so no complaints there. However I had already procured my inbound flights to Belgrade (the previous starting location). I decided to keep my plans and spend a bit of time solo exploring before joining the Remote Year group.
 

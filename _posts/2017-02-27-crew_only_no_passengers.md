@@ -5,6 +5,7 @@ date:   2017-02-28
 categories: projects
 hero: crew_only
 hide_subscription: true
+image: "/assets/img/heros/crew_only-small.png"
 ---
 My travel plans for the upcoming year are [well documented](/the_plan/), not so much my reasons pushing me towards it - I have been intentionally vague when queried on what I am actually doing.
 
