@@ -4,42 +4,70 @@ p.caption {
   margin-bottom: 0;
   margin-top: 0;
 }
+.vrview_player {
+  position: relative;
+  cursor:grab;
+}
+.play-icon {
+  display: block;
+ position: absolute;
+ text-align: center;
+ color: white;
+ top:100px;
+ z-index: 100;
+ top:40%;
+ left:45%;
+ font-size: 48pt;
+}
 
-#controls {
+.controls {
+  display: none;
   overflow: hidden;
   background: #eee;
   margin: 0 auto;
 }
 
-  #controls > * {
+  .controls > * {
     margin: 8px;
     cursor: pointer;
     opacity: 0.5;
   }
 
-  #controls > *:hover {
+  .controls > *:hover {
     opacity: 1;
   }
 
 
-#toggleplay {
+.toggleplay {
   float: left;
   background: url('/assets/vrview/img/ic_pause_black_24dp.svg');
   width: 24px;
   height: 24px;
 }
 
-#toggleplay.paused {
+.toggleplay.paused {
 background: url('/assets/vrview/img/ic_play_arrow_black_24dp.svg');
 }
-
-#togglemute {
+.togglemute {
 float: right;
 background: url('/assets/vrview/img/ic_volume_up_black_24dp.svg');
 width: 24px;
 height: 24px;
 }
 
-#togglemute.muted {
+.togglemute.muted {
   background: url('/assets/vrview/img/ic_volume_off_black_24dp.svg');
+}
+.vr-poster {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+.vr-poster:focus, .vr-poster:hover {
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	filter: none;
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
 }

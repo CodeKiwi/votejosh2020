@@ -15,7 +15,6 @@
 
   });
 
-
   $(window).resize(function(){
     container_full_height_init();
 
@@ -295,6 +294,47 @@
   //     }
   //   });
   // });
+  var vrView;
+  $('div.vrview').click(function () {
+    $(this).html('');
+    vrView = new VRView.Player('.vrview', {
+      video: $(this).parent().attr("data-video"),
+      is_stereo: false,
+      width: "100%",
+      height: "300px"
+    });
+    var controls = $(this).parent().find('.controls')
+    controls.show();
+    var playButton = controls.find('.toggleplay');
+    var muteButton = controls.find('.togglemute');
+
+    playButton.click(function () {
+      if (vrView.isPaused) {
+        vrView.play();
+        playButton.removeClass('paused');
+      } else {
+        vrView.pause();
+        playButton.addClass('paused');
+      }
+    });
+    muteButton.click(function () {
+      var isMuted = muteButton.classList.contains('muted');
+      if (isMuted) {
+        vrView.setVolume(1);
+      } else {
+        vrView.setVolume(0);
+      }
+      muteButton.classList.toggle('muted');
+    });
+
+    vrView.on('click', function(e) {
+        if (vrView.isPaused) {
+          vrView.play();
+          playButton.removeClass('paused');
+        }
+    });
+
+  });
 
 
 })(jQuery);
