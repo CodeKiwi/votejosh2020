@@ -98,7 +98,7 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 50%;
+  // top: 50%;
   left: 0;
   @include transform (translateY(-50%));
 
@@ -132,10 +132,11 @@
 /*-------------------------------------------------------*/
 
 .hero-img {
-  background-image: url(../assets/img/heros/boom.png);
+  background-image: url(../assets/img/split-hero.png);
   background-size: cover;
   background-position: center;
   padding: 0;
+  position: relative;
 
   & > .container {
     height: 700px;
@@ -144,7 +145,19 @@
 
   h1 {
       position: relative;
-      top : 100px;
+      top : 80px;
+  }
+  .photo-credit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: white;
+      a {
+          color: lightgray;
+          &:hover {
+              color: black;
+          }
+      }
   }
 }
 

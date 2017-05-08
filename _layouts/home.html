@@ -8,6 +8,7 @@ title: 'Josh meet world'
     <div class="hero-holder">
       <h1 class="white mb-0">Hi, I'm Josh<br>I travel, build stuff and write about it</h1>
     </div>
+    <div class="photo-credit">Image "Morning Freight" by <a href="http://instagram.com/839photo" target="_blank" >Sean Marier</a></div>
   </div>
 </section>
 
@@ -99,6 +100,7 @@ title: 'Josh meet world'
             </div>
           </div>
         </article> <!-- end large post -->
+        <div class="row items-grid">
         {% else %}
             <!-- grid posts -->
               <div class="col-sm-6">
@@ -136,6 +138,9 @@ title: 'Josh meet world'
               </div>
         {% endif %}
         {% assign counter = counter | plus: 1 %}
+        {% if counter == 5 %}
+      </div>
+        {% endif %}
         {% endfor %}
 
           <div class="row mt-20">

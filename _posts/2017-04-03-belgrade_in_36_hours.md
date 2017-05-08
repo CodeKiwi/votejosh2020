@@ -5,9 +5,10 @@ date:   2017-04-03
 categories: europe
 hero: belgrade
 map_id: 665cbdbe-1907-11e7-a4a7-024bc0398b11
----  
+image: "/assets/img/heros/belgrade-small.png"
+---
 
-Due to a change in my Remote Year program, I find myself in Belgrade, Serbia with a full day to kill. My original itinerary was cancelled, but I was offered a far superior (IMO) set of [destinations](/the_plan) starting off in Croatia - also [RemoteYear](http://remoteyear.com/){:target='_blank'} paid for the change in plans so no complaints there. However I had already procured my inbound flights to Belgrade (the previous starting location). I decided to keep my plans and spend a bit of time solo exploring before joining the Remote Year group.
+Due to a change in my Remote Year program, I find myself in Belgrade, Serbia with a full day to kill. My original itinerary was cancelled, but I was offered a far superior (IMO) set of [destinations](/the_plan) starting off in Croatia - also [RemoteYear](http://remoteyear.com/){:target='\_blank'} paid for the change in plans so no complaints there. However I had already procured my inbound flights to Belgrade (the previous starting location). I decided to keep my plans and spend a bit of time solo exploring before joining the Remote Year group.
 
 Starting out in Auckland on Thursday afternoon, transiting through Melbourne and Abu Dhabi, 33 hours of travel later I arrived, wary but in one piece in Belgrade. To make the travels worse, for the longest leg of the travel Melbourne > Abu Dhabi I was seated in an Exit row (yes!) but in front of a six foot five, African lady who refused to let me recline my seat. Commenting that she had long legs and reclining them caused her pain - to which I commented "Yes, me too, that's why I paid for extra legroom!" - she wouldn't relent and despite my protests I had to spend the whole 14 hour flight sitting upright.
 
@@ -23,7 +24,7 @@ Arriving and checking into my adequate but unremarkable hotel, I am surprised th
 
 From there I wander through a few parks and towards the main shopping street - Knez Mihailova St. I decided this to be the perfect place to test out my latest gadget, a 360 degree camera procured on my stopover in Abu Dhabi. I am hoping this combined with my newly acquired selfie stick will be the perfect way to capture and share an entire environment or experience during my travels, rather than just a static photo. I am going to experiment with different ways to use this medium, ideally viewed on a VR headset but can still be viewed on a phone or screen. Give it a go, make sure you expand it and look around. Let me know what you think?
 
-{% include vrview_video.html src='/assets/video/belgrade_street.mp4' %}
+{% include vrview_video.html src='/assets/video/belgrade_street.mp4' poster='/assets/video/belgrade_street_preview.png' %}
 
 Feeling my voyouristic technology is fast wearing out my already tenuous welcome I decide to move on. Next stop the sprawling [Belgrade Fortress](https://en.wikipedia.org/wiki/Belgrade_Fortress), built in the year 535 it has had a bloody and tumultuous past. Nowadays it leads a little more sedate life as a quite popular destination for both tourists and locals alike.
 

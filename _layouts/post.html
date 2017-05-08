@@ -20,6 +20,9 @@ layout: default
 
                 <div class="entry-img">
                   <img src="/assets/img/heros/{{page.hero}}-hero.png" alt="">
+                  {% if page.hero_title %}
+                  <div class="photo-credit">Image "{{page.hero_title}}" by <a href="http://instagram.com/839photo" target="_blank" >Sean Marier</a></div>
+                  {% endif %}
                 </div>
 
                 <div class="entry-wrap">

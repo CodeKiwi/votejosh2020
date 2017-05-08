@@ -5,6 +5,7 @@ date:   2017-03-22
 categories: antipodes
 hero: tongariro
 map_id: a77ea8f8-e91b-11e6-a4a7-024bc0398b11
+image: "/assets/img/heros/tongariro-small.png"
 ---
 The Tongariro crossing is regarded as one of the greatest single day treks in New Zealand if not the world, so it seemed only fitting that before I head off for adventures around the world that I complete one at home while I am there.
 
