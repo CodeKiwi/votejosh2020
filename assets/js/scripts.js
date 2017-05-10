@@ -5,8 +5,8 @@
   $(window).load(function() {
 
     // Preloader
-    $('.loader').fadeOut();
-    $('.loader-mask').delay(350).fadeOut('slow');
+    // $('.loader').fadeOut();
+    // $('.loader-mask').delay(350).fadeOut('slow');
 
     $(window).trigger("resize");
     initTwittslider();
