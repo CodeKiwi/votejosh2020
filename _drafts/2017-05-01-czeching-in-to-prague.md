@@ -30,6 +30,6 @@ After a few hours sleep we rise and shine, eager not to waste the first day in P
 
 * Crashing a dance party for 70+ year olds.. on a boat
 * Finding an illegal bar in some ramshackle building behind a skatepark
-* Getting hooked up to Oxygen at a club split over 5 levels
+* Getting hooked up to flavoured Oxygen at a club split over 5 levels
 
-But those stories are perhaps for another day. Prague, I love you but shit you like to drink.
+But those stories are perhaps for another day. Prague, I love you but shit, you like to drink.
