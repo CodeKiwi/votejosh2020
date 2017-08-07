@@ -32,6 +32,7 @@ exclude:
 category_titles:
     antipodes: 'Antipodes'
     europe: 'Europe'
+    asia: 'Asia'
     musings: 'Musings'
     projects: 'Projects'
 # Google services

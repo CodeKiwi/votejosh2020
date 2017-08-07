@@ -4,4 +4,4 @@ title: Europe
 category: europe
 permalink: /europe/
 ---
-The Europe league of the trip is under way.
+Well that went by quickly, Europe is in the rearview now.
