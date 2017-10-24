@@ -8,6 +8,14 @@ permalink: /projects/
 ---
 Past, present and future projects will be presented here.
 
+### [Laazy](http://laazy.io) ![My wheels](/assets/img/posts/smartplates.png){:class="alignleft"}
+
+Laazy is my pride and joy.
+
+[Visit project](http://beta.laazy.io)
+
+* * *
+
 ### [AAMI SmartPlates](http://aamismartplates.com.au) ![My wheels](/assets/img/posts/smartplates.png){:class="alignleft"}
 SmartPlates, is a mobile app transforming how Australian kids learn to drive. Sponsored by AAMI insurance and developed during my time at Ogilvy.
 
