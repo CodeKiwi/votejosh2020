@@ -4,4 +4,4 @@ title: Asia
 category: asia
 permalink: /asia/
 ---
-The Europe league of the trip is under way.
+Second act of the three part series. Asia is loud, hot, sweaty and beautiful. The sights, smells and sensations are hard to describe - but I will try. 
