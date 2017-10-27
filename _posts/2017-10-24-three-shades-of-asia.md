@@ -31,25 +31,13 @@ When it comes to getting around, nowhere I have been even comes close to Japan -
 
 Uber hasn't managed to establish itself in Kyoto yet, I believe this to be because around the world the taxi industry is one primed for disruption - dirty, unsafe, rude and unreliable. Kyoto's taxi service is none of these, each ride makes you feel like you have booked a chaffered limousine. The drivers are very formal, with white driving gloves, suits and drivers hats - passengers are discouraged (sometimes forcefully) from touching the doors, despite all the vehicles being pristinely preserved 1980's Toyota's they have all been fitted with pneumatic rear door openers.
 
-When it comes to going intercity in Japan there are very few flights and even fewer airports, it is all about the trains, the Shinkansen specifically - the bullet train that services the length of the country. The punctuality and scale of this system blows ones mind. I had a seven day JR pass which entitles the holder to unlimited train travel for a week (including the bullet trains), I caught maybe ten of these services, never looking at the timetable and the longest I had to wait for one was around fifteen minutes. I managed to visit Tokyo, Osaka, Hiroshima, Kobe (then accidentally Osaka again) all by rail.
+When it comes to going intercity in Japan there are very few flights and even fewer airports, it is all about the trains, the Shinkansen specifically - the bullet train that services the length of the country. The punctuality and scale of this system is mind blowing. I had a seven day JR pass which entitles the holder to unlimited train travel for a week (including the bullet trains), I caught maybe ten of these services, never looking at the timetable and the longest I had to wait for one was around fifteen minutes. I managed to visit Tokyo, Osaka, Hiroshima, Kobe (then accidentally Osaka again) all by rail.
 
-When it comes to differences between the countries, nothing can be as varied in my opinion than the food. Where Vietnam was a blend of Chinese and French influence, resulting in two signature dishes Pho and Banh Mi respectively. Thailand is a literal melting pot of cultures, heavily influenced from the greater south-east asian region, but distinctly Thai. For Japan fish sauce gives way to soy sauce as the primary condiment. The Japanese cuisine surprised me, Sushi is the first thing that one thinks when having Japanese back home however it was rarer than one would think.  
+When it comes to differences between the countries, nothing can be as varied in my opinion than the food. Where Vietnam was a blend of Chinese and French influence, resulting in two signature dishes Pho and Banh Mi respectively. Thailand is a literal melting pot of cultures, heavily influenced from the greater south-east asian region, but distinctly Thai.
 
 ![Me and Sushi](/assets/img/posts/me_and_sushi.png){:class="alignleft"}
-From here I have decided to opt-out of Kuala Lumpur, partly because I wasn't such a big fan of the place when I visited last, but also because I had already planned to spend a lot of the month in Krabbi and Bali and opting out made financial sense. Also having lived in Bali before I just know how it works and can easily establish a routine.
+For Japan fish sauce gives way to soy sauce as the primary condiment. The Japanese cuisine surprised me, Sushi is the first thing that one thinks when having Japanese back home however it was rarer than one would think. Whilst it is available, it seems to be more about the Katsu, Ramen, Soba & Izakaya food.
+
+I am not done with Asia yet, I have one more month in Southeast Asia before leaving for South America. From here I have decided to opt-out of Kuala Lumpur, partly because I wasn't such a big fan of the place when I visited last, but also because I had already planned to spend a lot of the month in Krabbi and Bali and opting out made financial sense. Also having lived in Bali before I just know how it works and can easily establish a routine.
 
 Whilst I will miss my fellow Kaizens, they will be visiting Bali in various groups and I think a little break from the group will make South America all that much better.
-
-## Prices
-
-
-## The people
-
-
-## Etiquite
-
-
-## Nightlife
-
-
-## Where to next
