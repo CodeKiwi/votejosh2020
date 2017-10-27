@@ -8,9 +8,13 @@ permalink: /projects/
 ---
 Past, present and future projects will be presented here.
 
-### [Laazy](http://laazy.io) ![My wheels](/assets/img/posts/smartplates.png){:class="alignleft"}
+### [Laazy](http://laazy.io) ![My wheels](/assets/img/posts/laazy.png){:class="alignright"}
 
-Laazy is my pride and joy.
+Laazy is a free tool for content managers and producers to simplify the process of preparing assets for publication.
+
+It is a time-saving end solution for a bunch of image related needs.
+
+Smart.
 
 [Visit project](http://beta.laazy.io)
 
