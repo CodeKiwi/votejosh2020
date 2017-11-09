@@ -50,7 +50,7 @@ Most creative tools available today focus on what we call the 'canvas' model, wh
 
 ## Whats next
 
-Laazy is almost ready to welcome users in, but first we are running a free private beta to collect feedback and make any improvements before finally rolling it out. If you think you might be interested in an early access account, [sign up for the beta here](https://beta.laazy.io/beta_signup).
+Laazy is almost ready to welcome users in, but first we are running a free private beta to collect feedback and make any improvements before finally rolling it out. If you think you might be interested in an early access account, [sign up for the beta here](https://beta.laazy.io/beta-signup).
 
 Thanks for your support,
 Josh
