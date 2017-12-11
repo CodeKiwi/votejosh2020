@@ -23,7 +23,7 @@ Then finally the Volcanic activity reduces and the ash cloud moves in the right 
 
 Now we are the last ones left, with the airport open and ash cloud behaving we manage to secure bookings for an outgoing flight in two days time. With booking made we can relax and enjoy the last few days in paradise, all the while constantly monitoring YouTube feeds, Twitter and a projected path of the ash cloud.
 
-![Volcanos make for great sunsets](/assets/img/posts/leaving.png){:class="alignright"}The day of travel arrived and we pack in preparation for travel, one last check on the airline website yields the worst possible news, the ash cloud has shifted direction and they have started to cancel flights again - but our flight appears to still be scheduled. We hastily finish packing and haul ass to the airport.
+![Volcanos make for great sunsets](/assets/img/posts/leaving.png){:class="alignright"}The day of travel arrived and we pack in preparation for travel, one last check on the airline website yields the worst possible news, the ash cloud has shifted direction and they have started to cancel flights again - but our flight appeared to still be scheduled. We hastily finish packing and haul ass to the airport.
 
 Upon arrival at the airport our flight is still running but is ominously delayed a few hours. Eventually we manage to check in and offload our luggage - a comforting step. We head to the lounge and calm our nerves with a few more Bintang's (as if I hadn't had enough). Even as we have boarded we still wait nervously for the plane to be pushed back, it's not until we are finally in the air that everyone on the plane breathes a collective sigh of relief.
 
