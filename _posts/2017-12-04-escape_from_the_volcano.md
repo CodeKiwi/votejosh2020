@@ -5,11 +5,11 @@ date:   2017-12-04
 categories: asia
 hero: agung
 ---
-After the hectic (and sometimes boozy) pace of Asia, landing in Bali felt as close to home as I have come for quite some months. Despite the scammy taxi drivers and hectic traffic, I found the place calming.
+After the hectic (and sometimes boozy) pace of Asia landing in Bali felt as close to home as I have come for quite some months. Despite the scammy taxi drivers and hectic traffic, I found the place calming.
 
-![Volcanos make for great sunsets](/assets/img/posts/volcanic_sunset.png){:class="alignright"} There had been news stories about mount Agung for weeks now, even as I arrived there were reports of increased activity. I didn't really think anything of it. It wasn't until three days before our intended departure that I started to get the feeling it might impact our plans.
+![Volcanos make for great sunsets](/assets/img/posts/volcanic_sunset.png){:class="alignright"} There had been news stories about the impending Mount Agung eruption for weeks now, even as I arrived there were reports of increased activity. I didn't really think anything of it. It wasn't until a few days before our intended departure that I started to get the feeling it might impact our plans.
 
-Reports of ash and mud slides were sporadic and a tad sensational. An exclusion zone was established around the crater but in the tourist town of Seminyak there was nothing to indicate any impending disaster. That is until the airport was suddenly closed for fear of ash fallout. Now, whilst there was still no visual cue that something was amiss you could see it on the tourists faces and in their conversations. People we looking for the exit.
+Reports of ash and mud slides were sporadic and a tad sensational, headlines read like 'Thousands flee as Bali sets to blow'. An exclusion zone was established around the crater but in the tourist town of Seminyak there was nothing to indicate any impending disaster. That is until the airport was suddenly closed for fear of ash fallout. Now, whilst there was still no visual cue that something was amiss you could see it on the tourists faces and in their conversations. People we looking for the exit.
 
 One by one we checked our flights and one by one they were coming up cancelled. In true Kaizen style we decided to throw a Volcano party, we congregate on the designated villa but our hearts are not in it, the party never really kicks off as I think everyones minds were thinking about how they were going to get out.
 
