@@ -4,6 +4,7 @@ title: Travel hell vol 1 - Escape from the Volcano
 date:   2017-12-04
 categories: asia
 hero: agung
+map_id: ece64554-7b29-11e7-a4a7-024bc0398b11
 ---
 After the hectic (and sometimes boozy) pace of Asia landing in Bali felt as close to home as I have come for quite some months. Despite the scammy taxi drivers and hectic traffic, I found the place calming.
 

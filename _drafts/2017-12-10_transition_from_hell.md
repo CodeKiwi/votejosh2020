@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Travel hell vol 2 - The long way round
-date:   2017-12-04
-categories: asia
+date:   2017-12-10
+categories: south_america
 hero: keeping_lookout
+map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
 ---
 After so much travel it was bound to happen, so much seamless travel I knew I was running the gauntlet of good fortune and the tide would turn some day. That day turned out to be today (or few days, I'm a little confused about timezones and how long I have been traveling right now).
 
@@ -37,6 +38,6 @@ She finally said "You do not have a ticket for this flight". Because of my weird
 
 As I realised I was not getting to Lima any time soon I walked off, as I walked away she requested my baggage number so she could eject it from the hold - to which I told her she could figure that out herself (in not so polite terms).
 
-Dejected and without options I skulked back to the lounge, they were brilliant, letting me back in (without making me pay) and offering any help they could - including a shower that made me feel human again. I managed to get through to Air New Zealand customer support who checked my booking and lo and behold I was entitled to fly on the now departed Avianca flight. After a few more minutes he managed to get me the next flight to Lima, 6pm, so now I had 12hrs to kill in Buenos Aires - or so I thought, when I went to exit and go through customs, I was stopped at security and despite a language barrier was told that I am not allowed to exit without my airline 'vouching' for me (since my luggage is with them), unfortuately
+Dejected and without options I skulked back to the lounge, they were brilliant, letting me back in (without making me pay) and offering any help they could - including a shower that made me feel human again. I managed to get through to Air New Zealand customer support who checked my booking and lo and behold I was entitled to fly on the now departed Avianca flight. After a few more minutes he managed to get me the next flight to Lima, 6pm, so now I had 12hrs to kill in Buenos Aires - or so I thought, when I went to exit and go through customs, I was stopped at security and despite a language barrier was told that I am not allowed to exit without my airline 'vouching' for me (since my luggage is with them), unfortunately
 
 So to put my timeline in perspective, I woke at 6am Saturday in Wellington to begin traveling, it is currently midday 1am Monday in New Zealand and I am still far from finished
