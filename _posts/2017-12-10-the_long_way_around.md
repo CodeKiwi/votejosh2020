@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Travel hell vol 2 - The long way round
+title: Travel hell vol 2 - The long way around
 date:   2017-12-10
 categories: south_america
 hero: sad-traveller
