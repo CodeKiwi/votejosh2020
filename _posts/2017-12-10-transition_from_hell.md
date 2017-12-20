@@ -8,6 +8,8 @@ map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
 ---
 After so much travel it was bound to happen, so much seamless travel - I was running the gauntlet of good fortune, the tide would surely would turn some day. That day turned out to be today (or few days, I'm a little confused about timezones and how long I have been traveling).
 
+> If you haven't seen it, go check out the first in this series where [I escape from an island volcano.](/asia/2017/12/escape_from_the_volcano)
+
 Before the volcano messed with my mojo the original plan was to fly out of Bali on the Tuesday, land in Melbourne for a few days then fly out on Sunday to Lima, Peru via a two hour stopover in Santiago.
 
 Then Agung happened and I didn't manage to [escape the volcano](/asia/2017/12/escape_from_the_volcano) until Friday night. I still got to have a few days in Melbourne catching up with friends and business interests (ps, go buy some [Dirt](http://thedirtcompany.com.au/)). Next up rejoining my Kaizen family in Lima.
