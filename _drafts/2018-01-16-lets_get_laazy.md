@@ -1,10 +1,16 @@
 ---
 layout: post
-title: I confess, I have been Laazy
-date:   2018-11-04
+title: Let's get Laazy
+date:   2018-01-16
 categories: projects
 hero: keeping_lookout
 ---
+
+Laazy is live
+
+Starting the project
+
+The team
 
 ## The approach
 
@@ -17,3 +23,5 @@ Splits are a special type of action that facilitates splitting the output of an 
 Pipelines are a collection of actions that make up a whole process, pipelines have a single input and one or more outputs, so once a pipeline has been set up all you need to do is upload or drag an image onto it. Laazy will do the rest.
 
 The system is scalable and we can deploy increasingly complex and clever actions that can be dropped into pipelines - we have some cool ones in the pipleine ;) but I we are keen to hear what our users find useful.  
+
+## Get involved
