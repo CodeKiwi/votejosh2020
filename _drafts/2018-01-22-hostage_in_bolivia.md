@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Peruvian contrast
-date:   2018-01-17
+title: Travel Hell Vol 3 - Hostage in Bolivia
+date:   2018-02-17
 categories: south_america
 hero: keeping_lookout
 map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
@@ -31,3 +31,13 @@ We walk one km with our full luggage packs out of the blockade to awaiting vehic
 In saftey we can reflect and joke about what just happened. We turn around and see our two original vehicles coming overland from the desert? As it turns out we were just a distraction to allow the guides to run the blockade via the desert (these are full 4WD's. The guides decided it was too  risky with a car load of Gringo's.
 
 After redistributing the luggage we head back to town. A few km out of town we veer off road into the desert and take a very back streets way into town. It Dawn's on me that the protests are in the town.
+
+Meet up with group
+
+Take the back road
+
+Get lost
+
+Finally arrive at salt flats 6 hrs after departing
+
+missed out on train graveyard
