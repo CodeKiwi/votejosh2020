@@ -29,3 +29,5 @@ Now we are the last ones left, with the airport open and ash cloud behaving we m
 Upon arrival at the airport our flight is still running but is ominously delayed a few hours. Eventually we manage to check in and offload our luggage - a comforting step. We head to the lounge and calm our nerves with a few more Bintang's (as if I hadn't had enough). Even as we have boarded we still wait nervously for the plane to be pushed back, it's not until we are finally in the air that everyone on the plane breathes a collective sigh of relief.
 
 Just when I think all the dramas are over. On arrival into Melbourne we are faced with 'storm of the decade' torrential rain, a malfunctioning chip in my passport and everyones luggage getting stuck on the plane for an additional 40 minutes. But we escaped the Volcano (and eventually Melbourne airport).
+
+If you enjoyed this post, be sure to check out [Volume 2](/south_america/2017/12/the_long_way_around) and [Volume 3](/south_america/2018/02/hostage_in_bolivia) of the travel hell series.
