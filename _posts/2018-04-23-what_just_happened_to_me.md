@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What just happened to me
-date:   2018-04-15
+date:   2018-04-23
 categories: americas
 hero: sunset_ry11
 ---
@@ -33,7 +33,7 @@ What was the secret sauce of each location was the side trips, track events or g
 
 >I have leaped. Oh fuck!
 
-I wrote this as an intro on my [very first post](/musings/2017/01/here_we_go) when I started my travels, a full 15 months ago almost to the day. The tone of the post betrayed the inner gut wretching that was going on, I had taken a massive and potentially career limiting risk - a leap into something that 'sounded cool' but I hadn't really thought through the implications of.
+I wrote this as an intro on my [very first post](/musings/2017/01/here_we_go) when I started my travels, a full 15 months ago almost to the day. The tone of the post betrayed the inner gut wrenching that was going on, I had taken a massive and potentially career limiting risk - a leap into something that 'sounded cool' but I hadn't really thought through the implications of.
 
 I am so glad I did, it ranks up there as one of the best decisions of my life and something that will continue to pay dividends for many years to come (perhaps actual dividends in the case of [Laazy](https://beta.laazy.io)).
 
