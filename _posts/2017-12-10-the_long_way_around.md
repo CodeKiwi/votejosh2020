@@ -2,7 +2,7 @@
 layout: post
 title: Travel hell vol 2 - The long way around
 date:   2017-12-10
-categories: south_america
+categories: americas
 hero: sad-traveller
 map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
 ---
@@ -56,4 +56,4 @@ So to put my timeline in perspective, I woke at 6am Saturday in Wellington to be
 
 *Update* I have since recovered my luggage (another two days later) and lodged a dispute with Air New Zealand, they have offered to refund my baggage costs and reimburse me for all my out of pocket expenses - but most of all I am just happy to have made it to South America and am equally happy not to be setting foot on another Airline at least for a few weeks.
 
-If you enjoyed this post, be sure to check out [Volume 1](/asia/2017/12/escape_from_the_volcano) and [Volume 3](/south_america/2018/02/hostage_in_bolivia) of the travel hell series.
+If you enjoyed this post, be sure to check out [Volume 1](/asia/2017/12/escape_from_the_volcano) and [Volume 3](/americas/2018/02/hostage_in_bolivia) of the travel hell series.

@@ -2,11 +2,11 @@
 layout: post
 title: Lima on repeat
 date:   2018-01-17
-categories: south_america
+categories: americas
 hero: lima_beach
 map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
 ---
-By the time I arrived in Lima in December I had been travelling for 11 months. A few hectic preceeding months combined with the [transit from hell](/south_america/2017/12/the_long_way_around) meant I was decidedly burnt out and travel wary, I decided this month was to be about work and not much else.
+By the time I arrived in Lima in December I had been travelling for 11 months. A few hectic preceeding months combined with the [transit from hell](/americas/2017/12/the_long_way_around) meant I was decidedly burnt out and travel wary, I decided this month was to be about work and not much else.
 
 I spent most of my days heading to the workspace, working, looking for food, returning back to my apartment to relax or head out and explore the city on foot. I managed to avoid most of the party aspects of the city entirely knowing their would be plenty of that over New Years and January.
 

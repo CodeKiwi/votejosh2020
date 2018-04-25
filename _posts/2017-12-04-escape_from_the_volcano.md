@@ -30,4 +30,4 @@ Upon arrival at the airport our flight is still running but is ominously delayed
 
 Just when I think all the dramas are over. On arrival into Melbourne we are faced with 'storm of the decade' torrential rain, a malfunctioning chip in my passport and everyones luggage getting stuck on the plane for an additional 40 minutes. But we escaped the Volcano (and eventually Melbourne airport).
 
-If you enjoyed this post, be sure to check out [Volume 2](/south_america/2017/12/the_long_way_around) and [Volume 3](/south_america/2018/02/hostage_in_bolivia) of the travel hell series.
+If you enjoyed this post, be sure to check out [Volume 2](/americas/2017/12/the_long_way_around) and [Volume 3](/americas/2018/02/hostage_in_bolivia) of the travel hell series.

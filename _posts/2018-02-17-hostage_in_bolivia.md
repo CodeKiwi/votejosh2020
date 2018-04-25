@@ -2,7 +2,7 @@
 layout: post
 title: Travel Hell Vol 3 - Hostage in Bolivia
 date:   2018-02-17
-categories: south_america
+categories: americas
 hero: salty-gangsters
 map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
 ---
@@ -42,4 +42,4 @@ We are told that we are continuing on with our days plans to get to the salt fla
 
 We finally arrive at salt flats and begin the days 'planned' adventuring, the part of the journey that was supposed to take 45 minutes had taken 6 hrs. By the time we reach our basic accommodation that night we are thoroughly exhausted, but with a story to tell that not many visitors get (I hope).
 
-If you enjoyed this post, be sure to check out [Volume 1](/asia/2017/12/escape_from_the_volcano) and [Volume 2](/south_america/2017/12/the_long_way_around) of the travel hell series.
+If you enjoyed this post, be sure to check out [Volume 1](/asia/2017/12/escape_from_the_volcano) and [Volume 2](/americas/2017/12/the_long_way_around) of the travel hell series.

@@ -2,7 +2,7 @@
 layout: post
 title: Peru on Tour
 date:   2018-01-29
-categories: south_america
+categories: americas
 hero: machu_picchu
 map_id: 84114bb9-df77-11e7-a4a7-024bc0398b11
 ---
