@@ -1,1 +1,10 @@
-{}
+{
+  "projects": {
+    "votejosh2020-blog": "codekiwi-60515"
+  },
+  "targets": {
+    "codekiwi-60515": {
+      "hosting": {}
+    }
+  }
+}
