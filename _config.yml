@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "#Josh2020"
 email: josh.bondy@codekiwi.com
-description: So here I am, embarking on a journey into places unknown, to travel with people I have never met, to do work that I have not secured for clients and projects that, at this stage don’t exist.
+description: The time has come again for me to pack up my life and head off on loosely planned and poorly researched adventures - I'm not sure whats in store but I'm sure it'll be entertaining, I hope you join me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://votejosh2020.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: codekiwi

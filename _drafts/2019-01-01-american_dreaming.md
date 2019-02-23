@@ -1,15 +1,17 @@
 ---
 layout: post
 title: US Adventure
-date:   2018-03-03
+date:   2019-01-01
 categories: americas
 hero: salty-gangsters
 ---
-After successfully escaping Nicaragua I'm Off to the US
+This adventure happened way back in May but since it was the end of my trip, which coincided with my break from blogging. It is only now being published some 8 months later.🤷‍♀️
+
+After [successfully escaping Nicaragua](/americas/2018/05/done_not_done_more_tequila_and_rum) I'm Off to the US. This is my first ever time in 'Merica and since my time (and budget) is limited, I decided to hit the crowd favorites New York, D.C., Vegas and L.A.
 
 ## New York
 
-Sneaking in the boarder
+I landed at JFK at night and navigated the maze of walkways towards border control.
 
 Substandard accommodation
 
