@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./public;JEKYLL_ENV=production bundle exec jekyll build --destination ./public",
-    "deploy": "npm run build;firebase deploy;",
+    "deploy": "npm run build;firebase deploy --project votejosh2020;",
     "start": "bundle exec jekyll serve --drafts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/CodeKiwi/votejosh2020#readme",
   "devDependencies": {
-    "jekyll": "^3.0.0-beta1"
+    "jekyll": "3.4.0"
   }
 }
